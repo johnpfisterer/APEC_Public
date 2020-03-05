@@ -418,21 +418,11 @@
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
-				<Item Name="NI OPC UA Client.lvlib" Type="Library" URL="/&lt;vilib&gt;/OPCUA/NI OPC UA Client.lvlib"/>
-				<Item Name="Subscription Data Change.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Subscription Data Change.ctl"/>
 				<Item Name="NodeId.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/NodeId.ctl"/>
-				<Item Name="Data Type.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Data Type.ctl"/>
 				<Item Name="OPC UA StatusCode.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA StatusCode.ctl"/>
-				<Item Name="Subscription ID.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Subscription ID.ctl"/>
-				<Item Name="ni_opcua.dll" Type="Document" URL="/&lt;vilib&gt;/OPCUA/ni_opcua.dll"/>
-				<Item Name="Time Out.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Time Out.ctl"/>
-				<Item Name="OPC UA Client Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA Client Refnum.ctl"/>
-				<Item Name="NodeIds.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/NodeIds.ctl"/>
-				<Item Name="Node Class.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Node Class.ctl"/>
-				<Item Name="Write Variant Result.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Write Variant Result.ctl"/>
-				<Item Name="Write Variant Request.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Write Variant Request.ctl"/>
-				<Item Name="Write Status.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Write Status.ctl"/>
+				<Item Name="Data Type.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Data Type.ctl"/>
 				<Item Name="NI OPC UA Server.lvlib" Type="Library" URL="/&lt;vilib&gt;/OPCUA/NI OPC UA Server.lvlib"/>
+				<Item Name="ni_opcua.dll" Type="Document" URL="/&lt;vilib&gt;/OPCUA/ni_opcua.dll"/>
 				<Item Name="OPC UA Server Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA Server Refnum.ctl"/>
 				<Item Name="Historical Access.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Historical Access.ctl"/>
 				<Item Name="OPC UA Notifier Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA Notifier Refnum.ctl"/>
@@ -442,9 +432,19 @@
 				<Item Name="Condition Type.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Condition Type.ctl"/>
 				<Item Name="Add Limit Alarm.vi" Type="VI" URL="/&lt;vilib&gt;/OPCUA/server/subVI/Add Limit Alarm.vi"/>
 				<Item Name="OPC UA Off Normal Alarm Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA Off Normal Alarm Refnum.ctl"/>
+				<Item Name="NodeIds.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/NodeIds.ctl"/>
+				<Item Name="Write Variant Request.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Write Variant Request.ctl"/>
+				<Item Name="Write Status.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Write Status.ctl"/>
+				<Item Name="NI OPC UA Client.lvlib" Type="Library" URL="/&lt;vilib&gt;/OPCUA/NI OPC UA Client.lvlib"/>
+				<Item Name="Subscription ID.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Subscription ID.ctl"/>
+				<Item Name="Time Out.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Time Out.ctl"/>
+				<Item Name="OPC UA Client Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA Client Refnum.ctl"/>
+				<Item Name="Subscription Data Change.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Subscription Data Change.ctl"/>
+				<Item Name="Node Class.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Node Class.ctl"/>
 				<Item Name="Read Variant Result.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Read Variant Result.ctl"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="Verify Variant Type.vi" Type="VI" URL="/&lt;vilib&gt;/OPCUA/utilities/Verify Variant Type.vi"/>
+				<Item Name="Write Variant Result.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Write Variant Result.ctl"/>
 				<Item Name="Supported Security Policies.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Supported Security Policies.ctl"/>
 				<Item Name="NI OPC UA Utility.lvlib" Type="Library" URL="/&lt;vilib&gt;/OPCUA/NI OPC UA Utility.lvlib"/>
 				<Item Name="Get Cert AbsPath.vi" Type="VI" URL="/&lt;vilib&gt;/OPCUA/server/subVI/Get Cert AbsPath.vi"/>
@@ -569,7 +569,6 @@
 			<Item Name="Write.vi" Type="VI" URL="../Pfizer Timed Seq/Software/Acquisition/Write.vi"/>
 			<Item Name="DAQ Write.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/DAQ/DAQ Write Folder/DAQ/DAQ Write.lvlib"/>
 			<Item Name="Write State.ctl" Type="VI" URL="../Pfizer Timed Seq/Software/DAQ/DAQ Write Folder/Acquisition/Write State.ctl"/>
-			<Item Name="TCP Multiple Connections State.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2018/examples/Data Communication/Protocols/TCP/TCP Multiple Connections/controls/TCP Multiple Connections State.ctl"/>
 			<Item Name="Data Rate Dialog.vi" Type="VI" URL="../Pfizer Timed Seq/Software/support/Data Rate Dialog.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -845,6 +844,19 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{78508946-4C5F-4FB7-9EFD-FE0B3CAFB890}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="APEC Zip" Type="Zip File">
+				<Property Name="Absolute[0]" Type="Bool">false</Property>
+				<Property Name="BuildName" Type="Str">APEC Zip</Property>
+				<Property Name="Comments" Type="Str"></Property>
+				<Property Name="DestinationID[0]" Type="Str">{9A84BA48-C86B-4E95-8245-83FF37CFC4FF}</Property>
+				<Property Name="DestinationItemCount" Type="Int">1</Property>
+				<Property Name="DestinationName[0]" Type="Str">Destination Directory</Property>
+				<Property Name="IncludedItemCount" Type="Int">1</Property>
+				<Property Name="IncludedItems[0]" Type="Ref">/My Computer</Property>
+				<Property Name="IncludeProject" Type="Bool">true</Property>
+				<Property Name="Path[0]" Type="Path">../../builds/Pfizer FAST OPC/APEC Zip/Pfizer FAST OPC.zip</Property>
+				<Property Name="ZipBase" Type="Str">NI_zipbasedefault</Property>
 			</Item>
 		</Item>
 	</Item>

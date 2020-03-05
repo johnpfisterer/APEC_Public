@@ -44,6 +44,5 @@
 	<Item Name="Module Count.vi" Type="VI" URL="../Module Count.vi"/>
 	<Item Name="Ramp.vi" Type="VI" URL="../Ramp.vi"/>
 	<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../Set Enable State on Multiple Controls.vi"/>
-	<Item Name="TCP Write.vi" Type="VI" URL="../../TCP/TCP Write.vi"/>
 	<Item Name="User Event - Stop.lvlib" Type="Library" URL="../User Event - Stop/User Event - Stop.lvlib"/>
 </Library>

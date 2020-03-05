@@ -35,7 +35,6 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>
 	<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi"/>
-	<Item Name="KNF SIMDOS Test Program.vi" Type="VI" URL="../KNF SIMDOS Test Program.vi"/>
 	<Item Name="Pause.vi" Type="VI" URL="../Pause.vi"/>
 	<Item Name="Pump Status.vi" Type="VI" URL="../Pump Status.vi"/>
 	<Item Name="Set Speed.vi" Type="VI" URL="../Set Speed.vi"/>
