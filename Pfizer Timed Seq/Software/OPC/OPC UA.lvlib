@@ -48,8 +48,8 @@
 	<Item Name="Client.vi" Type="VI" URL="../Client.vi"/>
 	<Item Name="Create All Message Queues (OPC).vi" Type="VI" URL="../Create All Message Queues (OPC).vi"/>
 	<Item Name="Get Server Data.vi" Type="VI" URL="../Get Server Data.vi"/>
-	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 	<Item Name="OPC Dialog.vi" Type="VI" URL="../OPC Dialog.vi"/>
+	<Item Name="OPC Main.vi" Type="VI" URL="../OPC Main.vi"/>
 	<Item Name="OPC UA Module Engine.lvlib" Type="Library" URL="../OPC UA Module Engine.lvlib"/>
 	<Item Name="Read Write Value.vi" Type="VI" URL="../Read Write Value.vi"/>
 	<Item Name="Server.vi" Type="VI" URL="../Server.vi"/>

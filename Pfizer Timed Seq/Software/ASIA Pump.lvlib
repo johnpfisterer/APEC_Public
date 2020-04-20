@@ -33,12 +33,21 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
+	<Item Name="Ack Overpressure.vi" Type="VI" URL="../ASIA Pump/Ack Overpressure.vi"/>
+	<Item Name="ASIA Control Settings.ctl" Type="VI" URL="../ASIA Pump/ASIA Control Settings.ctl"/>
+	<Item Name="ASIA Global Element.ctl" Type="VI" URL="../ASIA Pump/ASIA Global Element.ctl"/>
+	<Item Name="ASIA Global.ctl" Type="VI" URL="../ASIA Pump/ASIA Global.ctl"/>
 	<Item Name="Asia Pump C Test.vi" Type="VI" URL="../Asia Pump C Test.vi"/>
-	<Item Name="ASIA Support VIs.lvlib" Type="Library" URL="../ASIA Pump/ASIA Support VIs.lvlib"/>
+	<Item Name="ASIA Reserve Pump.vi" Type="VI" URL="../support/ASIA Reserve Pump.vi"/>
 	<Item Name="Close.vi" Type="VI" URL="../ASIA Pump/Close.vi"/>
+	<Item Name="Enter Remote Mode.vi" Type="VI" URL="../ASIA Pump/Enter Remote Mode.vi"/>
 	<Item Name="Initialize.vi" Type="VI" URL="../ASIA Pump/Initialize.vi"/>
 	<Item Name="Pause.vi" Type="VI" URL="../ASIA Pump/Pause.vi"/>
 	<Item Name="Pump Settings.ctl" Type="VI" URL="../ASIA Pump/Pump Settings.ctl"/>
 	<Item Name="Pump Status.vi" Type="VI" URL="../ASIA Pump/Pump Status.vi"/>
+	<Item Name="Read ASIA Global.vi" Type="VI" URL="../ASIA Pump/Read ASIA Global.vi"/>
+	<Item Name="Scan for Pumps.vi" Type="VI" URL="../ASIA Pump/Scan for Pumps.vi"/>
+	<Item Name="Set Overpressure Strategy.vi" Type="VI" URL="../ASIA Pump/Set Overpressure Strategy.vi"/>
 	<Item Name="Set Speed.vi" Type="VI" URL="../ASIA Pump/Set Speed.vi"/>
+	<Item Name="Write ASIA Global.vi" Type="VI" URL="../ASIA Pump/Write ASIA Global.vi"/>
 </Library>

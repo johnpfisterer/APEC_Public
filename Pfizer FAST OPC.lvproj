@@ -56,6 +56,47 @@
 		<Item Name="OPC" Type="Folder" URL="../Pfizer Timed Seq/Software/OPC">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="DLLs" Type="Folder">
+			<Item Name="labjackud.dll" Type="Document" URL="labjackud.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="User32.dll" Type="Document" URL="User32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="logosbrw.dll" Type="Document" URL="/&lt;resource&gt;/logosbrw.dll"/>
+			<Item Name="nitaglv.dll" Type="Document" URL="nitaglv.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="lvalarms.dll" Type="Document" URL="lvalarms.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="NVIORef.dll" Type="Document" URL="NVIORef.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="AsiaPumpInterface.dll" Type="Document" URL="../Pfizer Timed Seq/Third Party Drivers/4600031 - Version 1.2-Asia Pump Drivers/AsiaPumpInterface.dll"/>
+			<Item Name="ftd2xx64.dll" Type="Document" URL="../Pfizer Timed Seq/Third Party Drivers/4600031 - Version 1.2-Asia Pump Drivers/ftd2xx64.dll"/>
+			<Item Name="ftd2xx.dll" Type="Document" URL="../Pfizer Timed Seq/Third Party Drivers/4600031 - Version 1.2-Asia Pump Drivers/ftd2xx.dll"/>
+			<Item Name="boost_regex-vc90-mt-1_40.dll" Type="Document" URL="//smbgbl.drmvfs102.pfizer.com/FAST_Team/Software/LabVIEW/FAST Installer OPC/ASIA PUMP C Interface/ASIA PUMP C Interface/boost_regex-vc90-mt-1_40.dll"/>
+			<Item Name="ftlang.dll" Type="Document" URL="//smbgbl.drmvfs102.pfizer.com/FAST_Team/Software/LabVIEW/FAST Installer OPC/ASIA PUMP C Interface/ASIA PUMP C Interface/USBDrivers_v2.08.30.2/i386/ftlang.dll"/>
+			<Item Name="ftserui2.dll" Type="Document" URL="//smbgbl.drmvfs102.pfizer.com/FAST_Team/Software/LabVIEW/FAST Installer OPC/ASIA PUMP C Interface/ASIA PUMP C Interface/USBDrivers_v2.08.30.2/i386/ftserui2.dll"/>
+			<Item Name="ftbusui.dll" Type="Document" URL="//smbgbl.drmvfs102.pfizer.com/FAST_Team/Software/LabVIEW/FAST Installer OPC/ASIA PUMP C Interface/ASIA PUMP C Interface/USBDrivers_v2.08.30.2/i386/ftbusui.dll"/>
+			<Item Name="ftcserco.dll" Type="Document" URL="//smbgbl.drmvfs102.pfizer.com/FAST_Team/Software/LabVIEW/FAST Installer OPC/ASIA PUMP C Interface/ASIA PUMP C Interface/USBDrivers_v2.08.30.2/i386/ftcserco.dll"/>
+			<Item Name="ftcserco.dll" Type="Document" URL="//smbgbl.drmvfs102.pfizer.com/FAST_Team/Software/LabVIEW/FAST Installer OPC/ASIA PUMP C Interface/ASIA PUMP C Interface/USBDrivers_v2.08.30.2/amd64/ftcserco.dll"/>
+			<Item Name="ftd2xx64.dll" Type="Document" URL="//smbgbl.drmvfs102.pfizer.com/FAST_Team/Software/LabVIEW/FAST Installer OPC/ASIA PUMP C Interface/ASIA PUMP C Interface/USBDrivers_v2.08.30.2/amd64/ftd2xx64.dll"/>
+			<Item Name="ftlang.dll" Type="Document" URL="//smbgbl.drmvfs102.pfizer.com/FAST_Team/Software/LabVIEW/FAST Installer OPC/ASIA PUMP C Interface/ASIA PUMP C Interface/USBDrivers_v2.08.30.2/amd64/ftlang.dll"/>
+			<Item Name="ftserui2.dll" Type="Document" URL="//smbgbl.drmvfs102.pfizer.com/FAST_Team/Software/LabVIEW/FAST Installer OPC/ASIA PUMP C Interface/ASIA PUMP C Interface/USBDrivers_v2.08.30.2/amd64/ftserui2.dll"/>
+			<Item Name="ftbusui.dll" Type="Document" URL="//smbgbl.drmvfs102.pfizer.com/FAST_Team/Software/LabVIEW/FAST Installer OPC/ASIA PUMP C Interface/ASIA PUMP C Interface/USBDrivers_v2.08.30.2/amd64/ftbusui.dll"/>
+		</Item>
 		<Item Name="ASIA Pump.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/ASIA Pump.lvlib"/>
 		<Item Name="Bronkhorst M13 Flow Meter.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Bronkhorst M13 Flow Meter/Bronkhorst M13 Flow Meter.lvlib"/>
 		<Item Name="Bronkhorst M14 Flow Meter.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Bronkhorst M14 Flow Meter/Bronkhorst M14 Flow Meter.lvlib"/>
@@ -486,35 +527,12 @@
 				<Item Name="Array to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array to Array of VData__ogtk.vi"/>
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="PID 1 Parameters Cluster.ctl" Type="VI" URL="../Pfizer Timed Seq/Software/Measure Instrument/PID 1 Parameters Cluster.ctl"/>
 			<Item Name="Recenter Panel Bounds.vi" Type="VI" URL="../Pfizer Timed Seq/Software/support/Recenter Panel Bounds.vi"/>
 			<Item Name="Make Child Window.vi" Type="VI" URL="../Pfizer Timed Seq/Software/support/Make Child Window.vi"/>
-			<Item Name="User32.dll" Type="Document" URL="User32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="NVIORef.dll" Type="Document" URL="NVIORef.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="logosbrw.dll" Type="Document" URL="/&lt;resource&gt;/logosbrw.dll"/>
-			<Item Name="nitaglv.dll" Type="Document" URL="nitaglv.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="SCT Get Types.vi" Type="VI" URL="/&lt;resource&gt;/dialog/variable/SCT Get Types.vi"/>
 			<Item Name="SCT Default Types.ctl" Type="VI" URL="/&lt;resource&gt;/dialog/variable/SCT Default Types.ctl"/>
 			<Item Name="SCT Get LVRTPath.vi" Type="VI" URL="/&lt;resource&gt;/dialog/variable/SCT Get LVRTPath.vi"/>
-			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="lvalarms.dll" Type="Document" URL="lvalarms.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="Main Queue Cluster.ctl" Type="VI" URL="../Pfizer Timed Seq/Software/Main/Main Queue Cluster.ctl"/>
 			<Item Name="Create Main Message Queues.vi" Type="VI" URL="../Pfizer Timed Seq/Software/Main/Create Main Message Queues.vi"/>
 			<Item Name="Draw BMP at Location.vi" Type="VI" URL="../Pfizer Timed Seq/Software/Drag and Drop/Draw BMP at Location.vi"/>
@@ -543,7 +561,6 @@
 			<Item Name="Queue and Message Cluster.ctl" Type="VI" URL="../Pfizer Timed Seq/Software/controls/Queue and Message Cluster.ctl"/>
 			<Item Name="Image Folder.vi" Type="VI" URL="../Pfizer Timed Seq/Software/Drag and Drop/Image Folder.vi"/>
 			<Item Name="Output Devices.ctl" Type="VI" URL="../Pfizer Timed Seq/Software/TCU Module/TCU Module Folder/Measure Instrument/Output Devices.ctl"/>
-			<Item Name="AsiaPumpInterface.dll" Type="Document" URL="../Pfizer Timed Seq/Third Party Drivers/4600031 - Version 1.2-Asia Pump Drivers/AsiaPumpInterface.dll"/>
 			<Item Name="LDT1012 Utility Serial Communication.vi" Type="VI" URL="../Pfizer Timed Seq/Third Party Drivers/Ld1012/ld1012_u.llb/LDT1012 Utility Serial Communication.vi"/>
 			<Item Name="LDT1012 Initialize.vi" Type="VI" URL="../Pfizer Timed Seq/Third Party Drivers/Ld1012/ld1012.llb/LDT1012 Initialize.vi"/>
 			<Item Name="LDT1012 Config Pump Power Level.vi" Type="VI" URL="../Pfizer Timed Seq/Third Party Drivers/Ld1012/ld1012.llb/LDT1012 Config Pump Power Level.vi"/>
@@ -563,13 +580,11 @@
 			<Item Name="LDT1012 Reset.vi" Type="VI" URL="../Pfizer Timed Seq/Third Party Drivers/Ld1012/ld1012.llb/LDT1012 Reset.vi"/>
 			<Item Name="LDT1012 Utility Default Instrument Setup.vi" Type="VI" URL="../Pfizer Timed Seq/Third Party Drivers/Ld1012/ld1012_u.llb/LDT1012 Utility Default Instrument Setup.vi"/>
 			<Item Name="LDT1012 Utility Clean Up Initialize.vi" Type="VI" URL="../Pfizer Timed Seq/Third Party Drivers/Ld1012/ld1012_u.llb/LDT1012 Utility Clean Up Initialize.vi"/>
-			<Item Name="labjackud.dll" Type="Document" URL="labjackud.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="Write.vi" Type="VI" URL="../Pfizer Timed Seq/Software/Acquisition/Write.vi"/>
 			<Item Name="DAQ Write.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/DAQ/DAQ Write Folder/DAQ/DAQ Write.lvlib"/>
 			<Item Name="Write State.ctl" Type="VI" URL="../Pfizer Timed Seq/Software/DAQ/DAQ Write Folder/Acquisition/Write State.ctl"/>
 			<Item Name="Data Rate Dialog.vi" Type="VI" URL="../Pfizer Timed Seq/Software/support/Data Rate Dialog.vi"/>
+			<Item Name="AsiaPumpInterface.dll" Type="Document" URL="../../../../../../../Program Files (x86)/Pfizer/FAST/data/AsiaPumpInterface.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FAST Application" Type="EXE">
@@ -600,7 +615,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Pfizer.ico</Property>
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3C3A2EA6-851A-4210-AF54-D7C401627A78}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D23A5035-6F04-47C5-965C-5627313AA1B7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
@@ -625,7 +640,6 @@
 				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Support VIs/Support Library.lvlib/Message Queue.lvlib</Property>
 				<Property Name="Source[14].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[14].type" Type="Str">Library</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[15].itemID" Type="Ref">/My Computer/LJUD_eAIN.vi</Property>
@@ -643,10 +657,75 @@
 				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Pressure Regulator Control Module/Pressure Regulator/4-20mA Module.lvlib/4-20mA Module (Main).vi</Property>
 				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[18].type" Type="Str">VI</Property>
+				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/ASIA Pump.lvlib</Property>
+				<Property Name="Source[19].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[19].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Feed Module (Main).vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/ASIA Pump.lvlib/Asia Pump C Test.vi</Property>
+				<Property Name="Source[20].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[20].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[20].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[20].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[20].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[20].type" Type="Str">VI</Property>
+				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/ASIA Pump.lvlib/Close.vi</Property>
+				<Property Name="Source[21].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[21].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[21].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[21].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[21].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[21].type" Type="Str">VI</Property>
+				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/ASIA Pump.lvlib/Initialize.vi</Property>
+				<Property Name="Source[22].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[22].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[22].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[22].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[22].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[22].type" Type="Str">VI</Property>
+				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/My Computer/ASIA Pump.lvlib/Pause.vi</Property>
+				<Property Name="Source[23].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[23].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[23].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[23].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[23].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[23].type" Type="Str">VI</Property>
+				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[24].itemID" Type="Ref">/My Computer/ASIA Pump.lvlib/Pump Settings.ctl</Property>
+				<Property Name="Source[24].type" Type="Str">VI</Property>
+				<Property Name="Source[25].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[25].itemID" Type="Ref">/My Computer/ASIA Pump.lvlib/Pump Status.vi</Property>
+				<Property Name="Source[25].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[25].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[25].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[25].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[25].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[25].type" Type="Str">VI</Property>
+				<Property Name="Source[26].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[26].itemID" Type="Ref">/My Computer/ASIA Pump.lvlib/Set Speed.vi</Property>
+				<Property Name="Source[26].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[26].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[26].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[26].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[26].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[26].type" Type="Str">VI</Property>
+				<Property Name="Source[27].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[27].itemID" Type="Ref">/My Computer/ASIA Pump.lvlib/Ack Overpressure.vi</Property>
+				<Property Name="Source[27].type" Type="Str">VI</Property>
+				<Property Name="Source[28].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[28].itemID" Type="Ref">/My Computer/ASIA Pump.lvlib/ASIA Control Settings.ctl</Property>
+				<Property Name="Source[28].type" Type="Str">VI</Property>
+				<Property Name="Source[29].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[29].itemID" Type="Ref">/My Computer/ASIA Pump.lvlib/ASIA Global Element.ctl</Property>
+				<Property Name="Source[29].type" Type="Str">VI</Property>
 				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
@@ -654,29 +733,204 @@
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Images</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[30].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[30].itemID" Type="Ref">/My Computer/ASIA Pump.lvlib/ASIA Global.ctl</Property>
+				<Property Name="Source[30].type" Type="Str">VI</Property>
+				<Property Name="Source[31].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[31].itemID" Type="Ref">/My Computer/ASIA Pump.lvlib/ASIA Reserve Pump.vi</Property>
+				<Property Name="Source[31].type" Type="Str">VI</Property>
+				<Property Name="Source[32].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[32].itemID" Type="Ref">/My Computer/ASIA Pump.lvlib/Enter Remote Mode.vi</Property>
+				<Property Name="Source[32].type" Type="Str">VI</Property>
+				<Property Name="Source[33].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[33].itemID" Type="Ref">/My Computer/ASIA Pump.lvlib/Read ASIA Global.vi</Property>
+				<Property Name="Source[33].type" Type="Str">VI</Property>
+				<Property Name="Source[34].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[34].itemID" Type="Ref">/My Computer/ASIA Pump.lvlib/Scan for Pumps.vi</Property>
+				<Property Name="Source[34].type" Type="Str">VI</Property>
+				<Property Name="Source[35].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[35].itemID" Type="Ref">/My Computer/ASIA Pump.lvlib/Set Overpressure Strategy.vi</Property>
+				<Property Name="Source[35].type" Type="Str">VI</Property>
+				<Property Name="Source[36].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[36].itemID" Type="Ref">/My Computer/ASIA Pump.lvlib/Write ASIA Global.vi</Property>
+				<Property Name="Source[36].type" Type="Str">VI</Property>
+				<Property Name="Source[37].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[37].itemID" Type="Ref">/My Computer/Pump Module.lvlib</Property>
+				<Property Name="Source[37].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[37].type" Type="Str">Library</Property>
+				<Property Name="Source[38].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[38].itemID" Type="Ref">/My Computer/Pump Module.lvlib/Pump Module Engine.lvlib</Property>
+				<Property Name="Source[38].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[38].type" Type="Str">Library</Property>
+				<Property Name="Source[39].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[39].itemID" Type="Ref">/My Computer/Pump Module.lvlib/Pump Module Engine.lvlib/Close.vi</Property>
+				<Property Name="Source[39].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/PT Module.lvlib/PT (Main).vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[40].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[40].itemID" Type="Ref">/My Computer/Pump Module.lvlib/Pump Module Engine.lvlib/Convert Timed Loop Time.vi</Property>
+				<Property Name="Source[40].type" Type="Str">VI</Property>
+				<Property Name="Source[41].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[41].itemID" Type="Ref">/My Computer/Pump Module.lvlib/Pump Module Engine.lvlib/Error Handler.vi</Property>
+				<Property Name="Source[41].type" Type="Str">VI</Property>
+				<Property Name="Source[42].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[42].itemID" Type="Ref">/My Computer/Pump Module.lvlib/Pump Module Engine.lvlib/Graph.vi</Property>
+				<Property Name="Source[42].type" Type="Str">VI</Property>
+				<Property Name="Source[43].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[43].itemID" Type="Ref">/My Computer/Pump Module.lvlib/Pump Module Engine.lvlib/Initialize.vi</Property>
+				<Property Name="Source[43].type" Type="Str">VI</Property>
+				<Property Name="Source[44].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[44].itemID" Type="Ref">/My Computer/Pump Module.lvlib/Pump Module Engine.lvlib/Main Loop.vi</Property>
+				<Property Name="Source[44].type" Type="Str">VI</Property>
+				<Property Name="Source[45].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[45].itemID" Type="Ref">/My Computer/Pump Module.lvlib/Pump Module Engine.lvlib/Outputs.vi</Property>
+				<Property Name="Source[45].type" Type="Str">VI</Property>
+				<Property Name="Source[46].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[46].itemID" Type="Ref">/My Computer/Pump Module.lvlib/Pump Module Engine.lvlib/Pause.vi</Property>
+				<Property Name="Source[46].type" Type="Str">VI</Property>
+				<Property Name="Source[47].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[47].itemID" Type="Ref">/My Computer/Pump Module.lvlib/Pump Module Engine.lvlib/State Enum.ctl</Property>
+				<Property Name="Source[47].type" Type="Str">VI</Property>
+				<Property Name="Source[48].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[48].itemID" Type="Ref">/My Computer/Pump Module.lvlib/Pump Module Engine.lvlib/Tag Names.vi</Property>
+				<Property Name="Source[48].type" Type="Str">VI</Property>
+				<Property Name="Source[49].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[49].itemID" Type="Ref">/My Computer/Pump Module.lvlib/Pump Module Engine.lvlib/Timed Loop Time.vi</Property>
+				<Property Name="Source[49].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/U3 Module.lvlib/U3 (Main).vit</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="Source[50].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[50].itemID" Type="Ref">/My Computer/Pump Module.lvlib/Pump Module Engine.lvlib/Write Tags.vi</Property>
+				<Property Name="Source[50].type" Type="Str">VI</Property>
+				<Property Name="Source[51].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[51].itemID" Type="Ref">/My Computer/Pump Module.lvlib/Create All Message Queues.vi</Property>
+				<Property Name="Source[51].type" Type="Str">VI</Property>
+				<Property Name="Source[52].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[52].itemID" Type="Ref">/My Computer/Pump Module.lvlib/Pump Settings Dialog.vi</Property>
+				<Property Name="Source[52].type" Type="Str">VI</Property>
+				<Property Name="Source[53].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[53].itemID" Type="Ref">/My Computer/Pump Module.lvlib/Broadcast Pump Settings.vi</Property>
+				<Property Name="Source[53].type" Type="Str">VI</Property>
+				<Property Name="Source[54].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[54].itemID" Type="Ref">/My Computer/Pump Module.lvlib/Pump Status Pump Module.vi</Property>
+				<Property Name="Source[54].type" Type="Str">VI</Property>
+				<Property Name="Source[55].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[55].itemID" Type="Ref">/My Computer/Pump Module.lvlib/Get Calibration from Selected File.vi</Property>
+				<Property Name="Source[55].type" Type="Str">VI</Property>
+				<Property Name="Source[56].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[56].itemID" Type="Ref">/My Computer/Pump Module.lvlib/Get Calibration from File.vi</Property>
+				<Property Name="Source[56].type" Type="Str">VI</Property>
+				<Property Name="Source[57].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[57].itemID" Type="Ref">/My Computer/Feed Module.lvlib</Property>
+				<Property Name="Source[57].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[57].type" Type="Str">Library</Property>
+				<Property Name="Source[58].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[58].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Broadcast Settings.vi</Property>
+				<Property Name="Source[58].type" Type="Str">VI</Property>
+				<Property Name="Source[59].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[59].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Close SV.vi</Property>
+				<Property Name="Source[59].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/TT Module.lvlib/TT (Main).vi</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="Source[60].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[60].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Create All Message Queues.vi</Property>
+				<Property Name="Source[60].type" Type="Str">VI</Property>
+				<Property Name="Source[61].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[61].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Feed Module Engine.lvlib</Property>
+				<Property Name="Source[61].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[61].type" Type="Str">Library</Property>
+				<Property Name="Source[62].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[62].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Feed Module Engine.lvlib/Close.vi</Property>
+				<Property Name="Source[62].type" Type="Str">VI</Property>
+				<Property Name="Source[63].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[63].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Feed Module Engine.lvlib/Convert Timed Loop Time.vi</Property>
+				<Property Name="Source[63].type" Type="Str">VI</Property>
+				<Property Name="Source[64].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[64].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Feed Module Engine.lvlib/Error Handler.vi</Property>
+				<Property Name="Source[64].type" Type="Str">VI</Property>
+				<Property Name="Source[65].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[65].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Feed Module Engine.lvlib/Graph.vi</Property>
+				<Property Name="Source[65].type" Type="Str">VI</Property>
+				<Property Name="Source[66].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[66].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Feed Module Engine.lvlib/Initialize.vi</Property>
+				<Property Name="Source[66].type" Type="Str">VI</Property>
+				<Property Name="Source[67].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[67].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Feed Module Engine.lvlib/Inputs.vi</Property>
+				<Property Name="Source[67].type" Type="Str">VI</Property>
+				<Property Name="Source[68].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[68].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Feed Module Engine.lvlib/Main Loop.vi</Property>
+				<Property Name="Source[68].type" Type="Str">VI</Property>
+				<Property Name="Source[69].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[69].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Feed Module Engine.lvlib/Outputs.vi</Property>
+				<Property Name="Source[69].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Scale Module.lvlib/Scale Module (Main).vi</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="Source[70].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[70].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Feed Module Engine.lvlib/Pause.vi</Property>
+				<Property Name="Source[70].type" Type="Str">VI</Property>
+				<Property Name="Source[71].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[71].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Feed Module Engine.lvlib/PID 1.vi</Property>
+				<Property Name="Source[71].type" Type="Str">VI</Property>
+				<Property Name="Source[72].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[72].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Feed Module Engine.lvlib/PID 2.vi</Property>
+				<Property Name="Source[72].type" Type="Str">VI</Property>
+				<Property Name="Source[73].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[73].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Feed Module Engine.lvlib/Ramp.vi</Property>
+				<Property Name="Source[73].type" Type="Str">VI</Property>
+				<Property Name="Source[74].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[74].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Feed Module Engine.lvlib/State Enum.ctl</Property>
+				<Property Name="Source[74].type" Type="Str">VI</Property>
+				<Property Name="Source[75].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[75].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Feed Module Engine.lvlib/Tag Names.vi</Property>
+				<Property Name="Source[75].type" Type="Str">VI</Property>
+				<Property Name="Source[76].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[76].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Feed Module Engine.lvlib/Timed Loop Time.vi</Property>
+				<Property Name="Source[76].type" Type="Str">VI</Property>
+				<Property Name="Source[77].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[77].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Feed Module Engine.lvlib/Write Tags.vi</Property>
+				<Property Name="Source[77].type" Type="Str">VI</Property>
+				<Property Name="Source[78].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[78].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Operation Window.vi</Property>
+				<Property Name="Source[78].type" Type="Str">VI</Property>
+				<Property Name="Source[79].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[79].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Settings.lvlib</Property>
+				<Property Name="Source[79].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[79].type" Type="Str">Library</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Settings.xml</Property>
+				<Property Name="Source[80].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[80].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Settings.lvlib/Get Config File Path.vi</Property>
+				<Property Name="Source[80].type" Type="Str">VI</Property>
+				<Property Name="Source[81].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[81].itemID" Type="Ref">/My Computer/Feed Module.lvlib/Settings.lvlib/Settings Dialog.vi</Property>
+				<Property Name="Source[81].type" Type="Str">VI</Property>
+				<Property Name="Source[82].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[82].itemID" Type="Ref">/My Computer/DLLs/ftd2xx.dll</Property>
+				<Property Name="Source[82].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[83].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[83].itemID" Type="Ref">/My Computer/DLLs/Item[@Label='ftd2xx64.dll' and @Type='Document']</Property>
+				<Property Name="Source[84].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[84].itemID" Type="Ref">/My Computer/DLLs/lvanlys.dll</Property>
+				<Property Name="Source[84].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[85].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[85].itemID" Type="Ref">/My Computer/DLLs/logosbrw.dll</Property>
+				<Property Name="Source[85].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[86].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[86].itemID" Type="Ref">/My Computer/DLLs/boost_regex-vc90-mt-1_40.dll</Property>
+				<Property Name="Source[86].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/History Graph.lvlib/History Graph Message Loop.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">19</Property>
+				<Property Name="SourceCount" Type="Int">87</Property>
 				<Property Name="TgtF_companyName" Type="Str">Pfizer</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">FAST Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">FAST Application</Property>
@@ -700,79 +954,81 @@
 				<Property Name="DistPart[0].productName" Type="Str">NI Distributed System Manager 2018</Property>
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{56CE3148-AF48-49F0-8CEC-85F5AFC7F843}</Property>
 				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{7ED4302C-2086-45C1-8687-13F73C00A97A}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI LabVIEW DSC Module Runtime 2018</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{445F78DF-BC30-4564-94F3-FD9812F0703D}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI LabVIEW DSC Module Runtime 2018 SP1 f4</Property>
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{12532B3A-9581-4948-ADE3-F171073AA7AA}</Property>
 				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{33C1B63D-5B8F-4932-8441-B87E8C72021F}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI Variable Engine 2018</Property>
-				<Property Name="DistPart[2].upgradeCode" Type="Str">{EB7A3C81-1C0F-4495-8CE5-0A427E4E6285}</Property>
-				<Property Name="DistPart[3].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[3].productID" Type="Str">{94349BEA-18F2-46F0-AED9-73AAF6E51B7E}</Property>
-				<Property Name="DistPart[3].productName" Type="Str">NI-488.2 Runtime 17.6</Property>
-				<Property Name="DistPart[3].upgradeCode" Type="Str">{357F6618-C660-41A2-A185-5578CC876D1D}</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{36172A19-0114-422C-A0CA-5998BABCE6D7}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW OPC UA Toolkit Runtime 2018</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{C9E221C0-502E-4E89-8E49-C762BA566D40}</Property>
+				<Property Name="DistPart[3].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{33C1B63D-5B8F-4932-8441-B87E8C72021F}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI Variable Engine 2018</Property>
+				<Property Name="DistPart[3].upgradeCode" Type="Str">{EB7A3C81-1C0F-4495-8CE5-0A427E4E6285}</Property>
 				<Property Name="DistPart[4].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[4].productID" Type="Str">{207DE609-BB7E-4725-A985-37FDF07B7CCC}</Property>
-				<Property Name="DistPart[4].productName" Type="Str">NI-DAQmx Runtime 18.0</Property>
-				<Property Name="DistPart[4].upgradeCode" Type="Str">{923C9CD5-A0D8-4147-9A8D-998780E30763}</Property>
-				<Property Name="DistPart[5].flavorID" Type="Str">_deployment_</Property>
-				<Property Name="DistPart[5].productID" Type="Str">{A0A2CF10-0C02-41DF-AC3F-1EBA24038C19}</Property>
-				<Property Name="DistPart[5].productName" Type="Str">NI-VISA Runtime 18.0</Property>
-				<Property Name="DistPart[5].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
-				<Property Name="DistPart[6].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[6].productID" Type="Str">{1A304EEE-52F4-4217-A14E-A1B409FA933E}</Property>
-				<Property Name="DistPart[6].productName" Type="Str">NI LabVIEW Runtime 2018 f2</Property>
-				<Property Name="DistPart[6].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[0].productName" Type="Str">NI LabVIEW Runtime 2018 Non-English Support.</Property>
-				<Property Name="DistPart[6].SoftDep[0].upgradeCode" Type="Str">{3C68D03D-EF38-41B5-9977-E27520759DD6}</Property>
-				<Property Name="DistPart[6].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[1].productName" Type="Str">NI ActiveX Container</Property>
-				<Property Name="DistPart[6].SoftDep[1].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
-				<Property Name="DistPart[6].SoftDep[10].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[10].productName" Type="Str">NI mDNS Responder 17.0</Property>
-				<Property Name="DistPart[6].SoftDep[10].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
-				<Property Name="DistPart[6].SoftDep[11].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[11].productName" Type="Str">NI Deployment Framework 2018</Property>
-				<Property Name="DistPart[6].SoftDep[11].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
-				<Property Name="DistPart[6].SoftDep[12].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[12].productName" Type="Str">NI Error Reporting 2018</Property>
-				<Property Name="DistPart[6].SoftDep[12].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
-				<Property Name="DistPart[6].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[2].productName" Type="Str">Math Kernel Libraries 2017</Property>
-				<Property Name="DistPart[6].SoftDep[2].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
-				<Property Name="DistPart[6].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[3].productName" Type="Str">Math Kernel Libraries 2018</Property>
-				<Property Name="DistPart[6].SoftDep[3].upgradeCode" Type="Str">{33A780B9-8BDE-4A3A-9672-24778EFBEFC4}</Property>
-				<Property Name="DistPart[6].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[4].productName" Type="Str">NI Logos 18.0</Property>
-				<Property Name="DistPart[6].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
-				<Property Name="DistPart[6].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[5].productName" Type="Str">NI TDM Streaming 18.0</Property>
-				<Property Name="DistPart[6].SoftDep[5].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[6].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2018</Property>
-				<Property Name="DistPart[6].SoftDep[6].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
-				<Property Name="DistPart[6].SoftDep[7].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[7].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2018</Property>
-				<Property Name="DistPart[6].SoftDep[7].upgradeCode" Type="Str">{EF4708F6-5A34-4DBA-B12B-79CC2004E20B}</Property>
-				<Property Name="DistPart[6].SoftDep[8].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[8].productName" Type="Str">NI VC2010MSMs</Property>
-				<Property Name="DistPart[6].SoftDep[8].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
-				<Property Name="DistPart[6].SoftDep[9].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[6].SoftDep[9].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[6].SoftDep[9].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
-				<Property Name="DistPart[6].SoftDepCount" Type="Int">13</Property>
-				<Property Name="DistPart[6].upgradeCode" Type="Str">{3B195EBF-4A09-46E6-8EAD-931568C1344C}</Property>
-				<Property Name="DistPartCount" Type="Int">7</Property>
+				<Property Name="DistPart[4].productID" Type="Str">{FF2FC67E-7962-419C-AD6F-F0158D364A3F}</Property>
+				<Property Name="DistPart[4].productName" Type="Str">NI-488.2 Runtime 18.5</Property>
+				<Property Name="DistPart[4].upgradeCode" Type="Str">{357F6618-C660-41A2-A185-5578CC876D1D}</Property>
+				<Property Name="DistPart[5].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[5].productID" Type="Str">{B0527EB7-53B2-4E95-9B0E-23B9B0237D21}</Property>
+				<Property Name="DistPart[5].productName" Type="Str">NI-DAQmx Runtime 18.5</Property>
+				<Property Name="DistPart[5].upgradeCode" Type="Str">{923C9CD5-A0D8-4147-9A8D-998780E30763}</Property>
+				<Property Name="DistPart[6].flavorID" Type="Str">_deployment_</Property>
+				<Property Name="DistPart[6].productID" Type="Str">{EDF95F83-017A-4425-8F94-63FF8533A5EA}</Property>
+				<Property Name="DistPart[6].productName" Type="Str">NI-VISA Runtime 18.5</Property>
+				<Property Name="DistPart[6].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
+				<Property Name="DistPart[7].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[7].productID" Type="Str">{E74645B5-DED7-49B8-A4C7-B4BC6E1BDD55}</Property>
+				<Property Name="DistPart[7].productName" Type="Str">NI LabVIEW Runtime 2018 SP1 f4</Property>
+				<Property Name="DistPart[7].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[7].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[7].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[1].productName" Type="Str">NI Deployment Framework 2019</Property>
+				<Property Name="DistPart[7].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[7].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[7].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[7].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[11].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[7].SoftDep[11].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[7].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[2].productName" Type="Str">NI Error Reporting 2019</Property>
+				<Property Name="DistPart[7].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[7].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2018</Property>
+				<Property Name="DistPart[7].SoftDep[3].upgradeCode" Type="Str">{EF4708F6-5A34-4DBA-B12B-79CC2004E20B}</Property>
+				<Property Name="DistPart[7].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[4].productName" Type="Str">NI LabVIEW Runtime 2018 SP1 Non-English Support.</Property>
+				<Property Name="DistPart[7].SoftDep[4].upgradeCode" Type="Str">{3C68D03D-EF38-41B5-9977-E27520759DD6}</Property>
+				<Property Name="DistPart[7].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[5].productName" Type="Str">NI Logos 19.0</Property>
+				<Property Name="DistPart[7].SoftDep[5].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[7].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2018</Property>
+				<Property Name="DistPart[7].SoftDep[6].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
+				<Property Name="DistPart[7].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[7].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[7].SoftDep[7].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[7].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[7].SoftDep[8].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[7].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[9].productName" Type="Str">Math Kernel Libraries 2018</Property>
+				<Property Name="DistPart[7].SoftDep[9].upgradeCode" Type="Str">{33A780B9-8BDE-4A3A-9672-24778EFBEFC4}</Property>
+				<Property Name="DistPart[7].SoftDepCount" Type="Int">12</Property>
+				<Property Name="DistPart[7].upgradeCode" Type="Str">{3B195EBF-4A09-46E6-8EAD-931568C1344C}</Property>
+				<Property Name="DistPartCount" Type="Int">8</Property>
 				<Property Name="INST_author" Type="Str">PVI Systems, Inc.</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/FAST/FAST Installer</Property>
+				<Property Name="INST_buildLocation" Type="Path">../APEC 3.2.20</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">FAST Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{E8D34001-74B2-4851-B8B2-34F5E0647AFD}</Property>
+				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">FAST</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.0</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">18008012</Property>
+				<Property Name="InstSpecVersion" Type="Str">18018011</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Pfizer</Property>
 				<Property Name="MSI_arpContact" Type="Str">John Pfisterer</Property>
 				<Property Name="MSI_arpURL" Type="Str">www.pfizer.com</Property>
@@ -802,48 +1058,15 @@
 				<Property Name="Source[0].name" Type="Str">FAST Application</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/FAST Application</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">1</Property>
-			</Item>
-			<Item Name="My Application" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{1A421463-0A28-4E19-957B-0AC35B8C8D4E}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{4ECAA5B8-F206-46F7-B618-A9598758C074}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.Pfizer.com</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{49654444-C3AA-46FD-A5C3-1735E442B50E}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">My Application</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/My Application</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{E33692E6-BDAE-4B70-8632-B5C4B4EC553E}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/Application.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{398591A7-2976-4BBB-B670-281270E0E8CE}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dynamic Shared Variables.lvlib/EXAMPLE - Dynamic Shared Variables.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">Pfizer</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">My Application</Property>
-				<Property Name="TgtF_internalName" Type="Str">My Application</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 Pfizer</Property>
-				<Property Name="TgtF_productName" Type="Str">My Application</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{78508946-4C5F-4FB7-9EFD-FE0B3CAFB890}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+				<Property Name="Source[1].dest" Type="Str">{E8D34001-74B2-4851-B8B2-34F5E0647AFD}</Property>
+				<Property Name="Source[1].name" Type="Str">logosbrw.dll</Property>
+				<Property Name="Source[1].tag" Type="Ref">/My Computer/DLLs/logosbrw.dll</Property>
+				<Property Name="Source[1].type" Type="Str">File</Property>
+				<Property Name="Source[2].dest" Type="Str">{E8D34001-74B2-4851-B8B2-34F5E0647AFD}</Property>
+				<Property Name="Source[2].name" Type="Str">lvanlys.dll</Property>
+				<Property Name="Source[2].tag" Type="Ref">/My Computer/DLLs/lvanlys.dll</Property>
+				<Property Name="Source[2].type" Type="Str">File</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
 			<Item Name="APEC Zip" Type="Zip File">
 				<Property Name="Absolute[0]" Type="Bool">false</Property>
