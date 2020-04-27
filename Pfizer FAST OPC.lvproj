@@ -86,16 +86,6 @@
 			<Item Name="AsiaPumpInterface.dll" Type="Document" URL="../Pfizer Timed Seq/Third Party Drivers/4600031 - Version 1.2-Asia Pump Drivers/AsiaPumpInterface.dll"/>
 			<Item Name="ftd2xx64.dll" Type="Document" URL="../Pfizer Timed Seq/Third Party Drivers/4600031 - Version 1.2-Asia Pump Drivers/ftd2xx64.dll"/>
 			<Item Name="ftd2xx.dll" Type="Document" URL="../Pfizer Timed Seq/Third Party Drivers/4600031 - Version 1.2-Asia Pump Drivers/ftd2xx.dll"/>
-			<Item Name="boost_regex-vc90-mt-1_40.dll" Type="Document" URL="//smbgbl.drmvfs102.pfizer.com/FAST_Team/Software/LabVIEW/FAST Installer OPC/ASIA PUMP C Interface/ASIA PUMP C Interface/boost_regex-vc90-mt-1_40.dll"/>
-			<Item Name="ftlang.dll" Type="Document" URL="//smbgbl.drmvfs102.pfizer.com/FAST_Team/Software/LabVIEW/FAST Installer OPC/ASIA PUMP C Interface/ASIA PUMP C Interface/USBDrivers_v2.08.30.2/i386/ftlang.dll"/>
-			<Item Name="ftserui2.dll" Type="Document" URL="//smbgbl.drmvfs102.pfizer.com/FAST_Team/Software/LabVIEW/FAST Installer OPC/ASIA PUMP C Interface/ASIA PUMP C Interface/USBDrivers_v2.08.30.2/i386/ftserui2.dll"/>
-			<Item Name="ftbusui.dll" Type="Document" URL="//smbgbl.drmvfs102.pfizer.com/FAST_Team/Software/LabVIEW/FAST Installer OPC/ASIA PUMP C Interface/ASIA PUMP C Interface/USBDrivers_v2.08.30.2/i386/ftbusui.dll"/>
-			<Item Name="ftcserco.dll" Type="Document" URL="//smbgbl.drmvfs102.pfizer.com/FAST_Team/Software/LabVIEW/FAST Installer OPC/ASIA PUMP C Interface/ASIA PUMP C Interface/USBDrivers_v2.08.30.2/i386/ftcserco.dll"/>
-			<Item Name="ftcserco.dll" Type="Document" URL="//smbgbl.drmvfs102.pfizer.com/FAST_Team/Software/LabVIEW/FAST Installer OPC/ASIA PUMP C Interface/ASIA PUMP C Interface/USBDrivers_v2.08.30.2/amd64/ftcserco.dll"/>
-			<Item Name="ftd2xx64.dll" Type="Document" URL="//smbgbl.drmvfs102.pfizer.com/FAST_Team/Software/LabVIEW/FAST Installer OPC/ASIA PUMP C Interface/ASIA PUMP C Interface/USBDrivers_v2.08.30.2/amd64/ftd2xx64.dll"/>
-			<Item Name="ftlang.dll" Type="Document" URL="//smbgbl.drmvfs102.pfizer.com/FAST_Team/Software/LabVIEW/FAST Installer OPC/ASIA PUMP C Interface/ASIA PUMP C Interface/USBDrivers_v2.08.30.2/amd64/ftlang.dll"/>
-			<Item Name="ftserui2.dll" Type="Document" URL="//smbgbl.drmvfs102.pfizer.com/FAST_Team/Software/LabVIEW/FAST Installer OPC/ASIA PUMP C Interface/ASIA PUMP C Interface/USBDrivers_v2.08.30.2/amd64/ftserui2.dll"/>
-			<Item Name="ftbusui.dll" Type="Document" URL="//smbgbl.drmvfs102.pfizer.com/FAST_Team/Software/LabVIEW/FAST Installer OPC/ASIA PUMP C Interface/ASIA PUMP C Interface/USBDrivers_v2.08.30.2/amd64/ftbusui.dll"/>
 		</Item>
 		<Item Name="ASIA Pump.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/ASIA Pump.lvlib"/>
 		<Item Name="Bronkhorst M13 Flow Meter.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Bronkhorst M13 Flow Meter/Bronkhorst M13 Flow Meter.lvlib"/>
@@ -615,7 +605,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Pfizer.ico</Property>
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D23A5035-6F04-47C5-965C-5627313AA1B7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D38F3D9C-9F20-4912-9BA7-457A120993B7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
@@ -916,21 +906,18 @@
 				<Property Name="Source[82].itemID" Type="Ref">/My Computer/DLLs/ftd2xx.dll</Property>
 				<Property Name="Source[82].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[83].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[83].itemID" Type="Ref">/My Computer/DLLs/Item[@Label='ftd2xx64.dll' and @Type='Document']</Property>
+				<Property Name="Source[83].itemID" Type="Ref">/My Computer/DLLs/ftd2xx64.dll</Property>
 				<Property Name="Source[84].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[84].itemID" Type="Ref">/My Computer/DLLs/lvanlys.dll</Property>
 				<Property Name="Source[84].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[85].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[85].itemID" Type="Ref">/My Computer/DLLs/logosbrw.dll</Property>
 				<Property Name="Source[85].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[86].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[86].itemID" Type="Ref">/My Computer/DLLs/boost_regex-vc90-mt-1_40.dll</Property>
-				<Property Name="Source[86].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/History Graph.lvlib/History Graph Message Loop.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">87</Property>
+				<Property Name="SourceCount" Type="Int">86</Property>
 				<Property Name="TgtF_companyName" Type="Str">Pfizer</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">FAST Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">FAST Application</Property>
