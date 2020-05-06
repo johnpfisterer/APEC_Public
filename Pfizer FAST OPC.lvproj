@@ -87,6 +87,7 @@
 			<Item Name="ftd2xx64.dll" Type="Document" URL="../Pfizer Timed Seq/Third Party Drivers/4600031 - Version 1.2-Asia Pump Drivers/ftd2xx64.dll"/>
 			<Item Name="ftd2xx.dll" Type="Document" URL="../Pfizer Timed Seq/Third Party Drivers/4600031 - Version 1.2-Asia Pump Drivers/ftd2xx.dll"/>
 		</Item>
+		<Item Name="OSI OCPUA" Type="Folder"/>
 		<Item Name="ASIA Pump.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/ASIA Pump.lvlib"/>
 		<Item Name="Bronkhorst M13 Flow Meter.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Bronkhorst M13 Flow Meter/Bronkhorst M13 Flow Meter.lvlib"/>
 		<Item Name="Bronkhorst M14 Flow Meter.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Bronkhorst M14 Flow Meter/Bronkhorst M14 Flow Meter.lvlib"/>
@@ -137,6 +138,7 @@
 		<Item Name="LJUD_ErrorToString.vi" Type="VI" URL="../Pfizer Timed Seq/Third Party Drivers/LabVIEW_LJUD/LabJackUD DLL Functions/LJUD_ErrorToString.vi"/>
 		<Item Name="LJUD_OpenLabJackS.vi" Type="VI" URL="../Pfizer Timed Seq/Third Party Drivers/LabVIEW_LJUD/LabJackUD DLL Functions/LJUD_OpenLabJackS.vi"/>
 		<Item Name="Pump Status.vi" Type="VI" URL="../Pfizer Timed Seq/Software/support/Pump Status.vi"/>
+		<Item Name="Get All Process Names.vi" Type="VI" URL="../Pfizer Timed Seq/Software/support/Get All Process Names.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -605,7 +607,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Pfizer.ico</Property>
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D38F3D9C-9F20-4912-9BA7-457A120993B7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7E66A714-8C25-4308-A9C6-685DB0DAB5CD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
