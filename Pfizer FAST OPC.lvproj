@@ -607,7 +607,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Pfizer.ico</Property>
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7E66A714-8C25-4308-A9C6-685DB0DAB5CD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{250AF504-F0BB-422D-B124-2CD764300C61}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
@@ -915,11 +915,13 @@
 				<Property Name="Source[85].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[85].itemID" Type="Ref">/My Computer/DLLs/logosbrw.dll</Property>
 				<Property Name="Source[85].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[86].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[86].itemID" Type="Ref">/My Computer/DLLs/AsiaPumpInterface.dll</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/History Graph.lvlib/History Graph Message Loop.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">86</Property>
+				<Property Name="SourceCount" Type="Int">87</Property>
 				<Property Name="TgtF_companyName" Type="Str">Pfizer</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">FAST Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">FAST Application</Property>
