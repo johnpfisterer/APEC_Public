@@ -36,12 +36,14 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Controls" Type="Folder">
 		<Item Name="D-O Module Config Cluster.ctl" Type="VI" URL="../D-O Module Config Cluster.ctl"/>
+		<Item Name="D-O Device Settings Cluster.ctl" Type="VI" URL="../D-O Device Settings Cluster.ctl"/>
 		<Item Name="D-O Module Settings Cluster.ctl" Type="VI" URL="../D-O Module Settings Cluster.ctl"/>
 		<Item Name="D-O Module Display.ctl" Type="VI" URL="../D-O Module Display.ctl"/>
 		<Item Name="D-O Module State Cluster.ctl" Type="VI" URL="../D-O Module State Cluster.ctl"/>
 		<Item Name="D-O Module Tag Names Cluster.ctl" Type="VI" URL="../D-O Module Tag Names Cluster.ctl"/>
 		<Item Name="All Message Queues.ctl" Type="VI" URL="../All Message Queues.ctl"/>
 		<Item Name="D-O Settings Dialog.ctl" Type="VI" URL="../D-O Settings Dialog.ctl"/>
+		<Item Name="Valve Clusters.ctl" Type="VI" URL="../Valve Clusters.ctl"/>
 	</Item>
 	<Item Name="D-O Module Engine.lvlib" Type="Library" URL="../Measure Instrument/D-O Module Engine.lvlib"/>
 	<Item Name="Create All Message Queues.vi" Type="VI" URL="../Create All Message Queues.vi"/>

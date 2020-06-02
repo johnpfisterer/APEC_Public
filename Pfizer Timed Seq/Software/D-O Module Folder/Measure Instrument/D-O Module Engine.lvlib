@@ -40,6 +40,7 @@
 	</Item>
 	<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>
 	<Item Name="Convert Timed Loop Time.vi" Type="VI" URL="../Convert Timed Loop Time.vi"/>
+	<Item Name="DIO Valve Set.vi" Type="VI" URL="../../DIO Valve/DIO Valve Set.vi"/>
 	<Item Name="Error Handler.vi" Type="VI" URL="../Error Handler.vi"/>
 	<Item Name="Graph.vi" Type="VI" URL="../Graph.vi"/>
 	<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi"/>

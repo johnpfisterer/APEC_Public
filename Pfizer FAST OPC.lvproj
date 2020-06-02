@@ -139,6 +139,7 @@
 		<Item Name="LJUD_OpenLabJackS.vi" Type="VI" URL="../Pfizer Timed Seq/Third Party Drivers/LabVIEW_LJUD/LabJackUD DLL Functions/LJUD_OpenLabJackS.vi"/>
 		<Item Name="Pump Status.vi" Type="VI" URL="../Pfizer Timed Seq/Software/support/Pump Status.vi"/>
 		<Item Name="Get All Process Names.vi" Type="VI" URL="../Pfizer Timed Seq/Software/support/Get All Process Names.vi"/>
+		<Item Name="Data Rate Dialog.vi" Type="VI" URL="../Pfizer Timed Seq/Software/support/Data Rate Dialog.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -573,7 +574,6 @@
 			<Item Name="Write.vi" Type="VI" URL="../Pfizer Timed Seq/Software/Acquisition/Write.vi"/>
 			<Item Name="DAQ Write.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/DAQ/DAQ Write Folder/DAQ/DAQ Write.lvlib"/>
 			<Item Name="Write State.ctl" Type="VI" URL="../Pfizer Timed Seq/Software/DAQ/DAQ Write Folder/Acquisition/Write State.ctl"/>
-			<Item Name="Data Rate Dialog.vi" Type="VI" URL="../Pfizer Timed Seq/Software/support/Data Rate Dialog.vi"/>
 			<Item Name="AsiaPumpInterface.dll" Type="Document" URL="../../../../../../../Program Files (x86)/Pfizer/FAST/data/AsiaPumpInterface.dll"/>
 			<Item Name="SCT Get LVRTPath.vi" Type="VI" URL="/&lt;resource&gt;/dialog/variable/SCT Get LVRTPath.vi"/>
 			<Item Name="SCT Get Types.vi" Type="VI" URL="/&lt;resource&gt;/dialog/variable/SCT Get Types.vi"/>
@@ -608,7 +608,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Pfizer.ico</Property>
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{27B351D5-F0F3-46CC-979B-AFD5BEB63286}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D939B90B-DB89-4108-9616-45192217D320}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
