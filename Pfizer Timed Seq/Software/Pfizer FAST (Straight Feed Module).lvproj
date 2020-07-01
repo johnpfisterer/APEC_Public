@@ -2,9 +2,9 @@
 <Project Type="Project" LVVersion="18008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
-	<Property Name="varPersistentID:{8B865F70-89C3-4BD5-9517-D718578EC44B}" Type="Ref">/My Computer/Support VIs/Globals.lvlib/Command Log File</Property>
-	<Property Name="varPersistentID:{CDB6E84D-FE5F-4A0C-88ED-AC5D5928C70C}" Type="Ref">/My Computer/Support VIs/Globals.lvlib/Test Variable</Property>
-	<Property Name="varPersistentID:{E1A6BFAD-90D2-4174-9125-438BD024F2B8}" Type="Ref">/My Computer/Support VIs/Globals.lvlib/ASIA Pump Global</Property>
+	<Property Name="varPersistentID:{051BF637-57E0-43B5-B9BE-F2C337991356}" Type="Ref">/My Computer/Dependencies/Support Library.lvlib/Globals.lvlib/Command Log File</Property>
+	<Property Name="varPersistentID:{98DE9B47-11B1-45AF-8842-0F5F88F00E43}" Type="Ref">/My Computer/Dependencies/Support Library.lvlib/Globals.lvlib/Test Variable</Property>
+	<Property Name="varPersistentID:{A352C1A6-3450-4965-AD1D-A10C3645C9E3}" Type="Ref">/My Computer/Dependencies/Support Library.lvlib/Globals.lvlib/ASIA Pump Global</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -29,17 +29,6 @@
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Message Queue.lvlib"/>
-			<Item Name="User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/User Event - Stop.lvlib"/>
-			<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../support/Set Enable State on Multiple Controls.vi"/>
-			<Item Name="Check Loop Error.vi" Type="VI" URL="../support/Check Loop Error.vi"/>
-			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
-			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
-			<Item Name="Ramp.vi" Type="VI" URL="../support/Ramp.vi"/>
-			<Item Name="Module Count.vi" Type="VI" URL="../support/Module Count.vi"/>
-			<Item Name="ASIA Pump Handler.vi" Type="VI" URL="../support/ASIA Pump Handler.vi"/>
-			<Item Name="Globals.lvlib" Type="Library" URL="../ASIA Pump/Globals.lvlib"/>
-			<Item Name="Command Logging.lvlib" Type="Library" URL="../support/Command Log VIs/Command Logging.lvlib"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
@@ -90,7 +79,6 @@
 		<Item Name="Pump Module.lvlib" Type="Library" URL="../Pump Module Folder/Pump Module.lvlib"/>
 		<Item Name="Scale Module.lvlib" Type="Library" URL="../Scale Module Folder/Scale Module.lvlib"/>
 		<Item Name="Sequencing Library.lvlib" Type="Library" URL="../Sequencing/Sequencing Library.lvlib"/>
-		<Item Name="Settings.lvlib" Type="Library" URL="../Settings/Settings.lvlib"/>
 		<Item Name="Tacmina QI.lvlib" Type="Library" URL="../Tacmina QI/Tacmina QI.lvlib"/>
 		<Item Name="TCU Module.lvlib" Type="Library" URL="../TCU Module/TCU Module Folder/TCU Module.lvlib"/>
 		<Item Name="TDMS Log.lvlib" Type="Library" URL="../TDMS Log/TDMS Log.lvlib"/>
@@ -103,19 +91,16 @@
 		<Item Name="Drop Parameters Cluster.ctl" Type="VI" URL="../Drag and Drop/Drop Parameters Cluster.ctl"/>
 		<Item Name="Error Checking.vi" Type="VI" URL="../Error Checking.vi"/>
 		<Item Name="E-Stop.vi" Type="VI" URL="../Main/E-Stop.vi"/>
-		<Item Name="Feed Module Display.ctl" Type="VI" URL="../Feed Module/Controls/Feed Module Display.ctl"/>
 		<Item Name="Settings.xml" Type="Document" URL="../Settings.xml"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Main.rtm" Type="Document" URL="../Main.rtm"/>
 		<Item Name="Make Child and Move.vi" Type="VI" URL="../Drag and Drop/Make Child and Move.vi"/>
 		<Item Name="Tag FGV Operation Enum.ctl" Type="VI" URL="../Tag VIs/Tag FGV Operation Enum.ctl"/>
 		<Item Name="Pfizer.ico" Type="Document" URL="../Pfizer.ico"/>
-		<Item Name="Tag Cluster.ctl" Type="VI" URL="../Bronkhorst M14 Flow Meter/Tag Cluster.ctl"/>
 		<Item Name="LJUD_eAIN.vi" Type="VI" URL="../../Third Party Drivers/LabVIEW_LJUD/LabJackUD DLL Functions/LJUD_eAIN.vi"/>
 		<Item Name="LJUD_ErrorToString.vi" Type="VI" URL="../../Third Party Drivers/LabVIEW_LJUD/LabJackUD DLL Functions/LJUD_ErrorToString.vi"/>
 		<Item Name="LJUD_OpenLabJackS.vi" Type="VI" URL="../../Third Party Drivers/LabVIEW_LJUD/LabJackUD DLL Functions/LJUD_OpenLabJackS.vi"/>
 		<Item Name="Pump Status.vi" Type="VI" URL="../support/Pump Status.vi"/>
-		<Item Name="TCP Write.vi" Type="VI" URL="../TCP/TCP Write.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -422,6 +407,38 @@
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
+				<Item Name="NodeId.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/NodeId.ctl"/>
+				<Item Name="OPC UA StatusCode.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA StatusCode.ctl"/>
+				<Item Name="Data Type.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Data Type.ctl"/>
+				<Item Name="NI OPC UA Server.lvlib" Type="Library" URL="/&lt;vilib&gt;/OPCUA/NI OPC UA Server.lvlib"/>
+				<Item Name="ni_opcua.dll" Type="Document" URL="/&lt;vilib&gt;/OPCUA/ni_opcua.dll"/>
+				<Item Name="OPC UA Server Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA Server Refnum.ctl"/>
+				<Item Name="Historical Access.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Historical Access.ctl"/>
+				<Item Name="OPC UA Notifier Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA Notifier Refnum.ctl"/>
+				<Item Name="OPC UA Variable Node Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA Variable Node Refnum.ctl"/>
+				<Item Name="OPC UA Dialog Condition Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA Dialog Condition Refnum.ctl"/>
+				<Item Name="OPC UA Limit Alarm Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA Limit Alarm Refnum.ctl"/>
+				<Item Name="Condition Type.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Condition Type.ctl"/>
+				<Item Name="Add Limit Alarm.vi" Type="VI" URL="/&lt;vilib&gt;/OPCUA/server/subVI/Add Limit Alarm.vi"/>
+				<Item Name="OPC UA Off Normal Alarm Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA Off Normal Alarm Refnum.ctl"/>
+				<Item Name="Subscription ID.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Subscription ID.ctl"/>
+				<Item Name="OPC UA Client Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/OPC UA Client Refnum.ctl"/>
+				<Item Name="Subscription Data Change.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Subscription Data Change.ctl"/>
+				<Item Name="Node Class.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Node Class.ctl"/>
+				<Item Name="NodeIds.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/NodeIds.ctl"/>
+				<Item Name="Write Variant Request.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Write Variant Request.ctl"/>
+				<Item Name="Write Status.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Write Status.ctl"/>
+				<Item Name="NI OPC UA Client.lvlib" Type="Library" URL="/&lt;vilib&gt;/OPCUA/NI OPC UA Client.lvlib"/>
+				<Item Name="Time Out.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Time Out.ctl"/>
+				<Item Name="Data Type Indicator.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Data Type Indicator.ctl"/>
+				<Item Name="Read Variant Result.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Read Variant Result.ctl"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
+				<Item Name="Verify Variant Type.vi" Type="VI" URL="/&lt;vilib&gt;/OPCUA/utilities/Verify Variant Type.vi"/>
+				<Item Name="Write Variant Result.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Write Variant Result.ctl"/>
+				<Item Name="Supported Security Policies.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Supported Security Policies.ctl"/>
+				<Item Name="NI OPC UA Utility.lvlib" Type="Library" URL="/&lt;vilib&gt;/OPCUA/NI OPC UA Utility.lvlib"/>
+				<Item Name="Get Cert AbsPath.vi" Type="VI" URL="/&lt;vilib&gt;/OPCUA/server/subVI/Get Cert AbsPath.vi"/>
+				<Item Name="getSeurityModeAndPolicy.vi" Type="VI" URL="/&lt;vilib&gt;/OPCUA/server/subVI/getSeurityModeAndPolicy.vi"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
@@ -522,7 +539,6 @@
 			<Item Name="Queue and Message Cluster.ctl" Type="VI" URL="../controls/Queue and Message Cluster.ctl"/>
 			<Item Name="Image Folder.vi" Type="VI" URL="../Drag and Drop/Image Folder.vi"/>
 			<Item Name="Output Devices.ctl" Type="VI" URL="../TCU Module/TCU Module Folder/Measure Instrument/Output Devices.ctl"/>
-			<Item Name="AsiaPumpInterface.dll" Type="Document" URL="../../Third Party Drivers/4600031 - Version 1.2-Asia Pump Drivers/AsiaPumpInterface.dll"/>
 			<Item Name="LDT1012 Utility Serial Communication.vi" Type="VI" URL="../../Third Party Drivers/Ld1012/ld1012_u.llb/LDT1012 Utility Serial Communication.vi"/>
 			<Item Name="LDT1012 Initialize.vi" Type="VI" URL="../../Third Party Drivers/Ld1012/ld1012.llb/LDT1012 Initialize.vi"/>
 			<Item Name="LDT1012 Config Pump Power Level.vi" Type="VI" URL="../../Third Party Drivers/Ld1012/ld1012.llb/LDT1012 Config Pump Power Level.vi"/>
@@ -548,8 +564,24 @@
 			<Item Name="Write.vi" Type="VI" URL="../Acquisition/Write.vi"/>
 			<Item Name="DAQ Write.lvlib" Type="Library" URL="../DAQ/DAQ Write Folder/DAQ/DAQ Write.lvlib"/>
 			<Item Name="Write State.ctl" Type="VI" URL="../DAQ/DAQ Write Folder/Acquisition/Write State.ctl"/>
-			<Item Name="TCP Multiple Connections State.ctl" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2018/examples/Data Communication/Protocols/TCP/TCP Multiple Connections/controls/TCP Multiple Connections State.ctl"/>
 			<Item Name="Data Rate Dialog.vi" Type="VI" URL="../support/Data Rate Dialog.vi"/>
+			<Item Name="AsiaPumpInterface.dll" Type="Document" URL="../../../../../../../../../Program Files (x86)/Pfizer/FAST/data/AsiaPumpInterface.dll"/>
+			<Item Name="OPC UA.lvlib" Type="Library" URL="../OPC/OPC UA.lvlib"/>
+			<Item Name="Huber Unistat 410 TCU.lvlib" Type="Library" URL="../Huber Unistat 410 TCU/Huber Unistat 410 TCU.lvlib"/>
+			<Item Name="OSIPI OPCUA Server Tag Version.vi" Type="VI" URL="../OPC/OSI PI/OSIPI OPCUA Server Tag Version.vi"/>
+			<Item Name="Get All Process Names.vi" Type="VI" URL="../support/Get All Process Names.vi"/>
+			<Item Name="DAQ Tags.vi" Type="VI" URL="../OPC/OSI PI/DAQ Tags.vi"/>
+			<Item Name="OPC Tags.vi" Type="VI" URL="../OPC/OSI PI/OPC Tags.vi"/>
+			<Item Name="PR Tags.vi" Type="VI" URL="../OPC/OSI PI/PR Tags.vi"/>
+			<Item Name="TCU Tags.vi" Type="VI" URL="../OPC/OSI PI/TCU Tags.vi"/>
+			<Item Name="Flow Tags.vi" Type="VI" URL="../OPC/OSI PI/Flow Tags.vi"/>
+			<Item Name="Pump Tags.vi" Type="VI" URL="../OPC/OSI PI/Pump Tags.vi"/>
+			<Item Name="Scale Tags.vi" Type="VI" URL="../OPC/OSI PI/Scale Tags.vi"/>
+			<Item Name="Feed Module Tags.vi" Type="VI" URL="../OPC/OSI PI/Feed Module Tags.vi"/>
+			<Item Name="OPC Set Tag Name.vi" Type="VI" URL="../OPC/OSI PI/OPC Set Tag Name.vi"/>
+			<Item Name="OSIPI OPCUA Server.vi" Type="VI" URL="../OPC/OSI PI/OSIPI OPCUA Server.vi"/>
+			<Item Name="OPC Set Properties Name.vi" Type="VI" URL="../OPC/OSI PI/OPC Set Properties Name.vi"/>
+			<Item Name="Support Library.lvlib" Type="Library" URL="../support/Support Library.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FAST Application" Type="EXE">
@@ -603,7 +635,7 @@
 				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Support VIs/Message Queue.lvlib</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Dependencies/Support Library.lvlib/Message Queue.lvlib</Property>
 				<Property Name="Source[14].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[14].type" Type="Str">Library</Property>
