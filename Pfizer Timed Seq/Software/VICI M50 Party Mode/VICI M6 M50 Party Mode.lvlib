@@ -40,5 +40,6 @@
 	<Item Name="Pump Status.vi" Type="VI" URL="../Pump Status.vi"/>
 	<Item Name="Set Speed.vi" Type="VI" URL="../Set Speed.vi"/>
 	<Item Name="Settings Cluster.ctl" Type="VI" URL="../Settings Cluster.ctl"/>
+	<Item Name="Test Program  Updated.vi" Type="VI" URL="../Test Program  Updated.vi"/>
 	<Item Name="Test Pump Connection.vi" Type="VI" URL="../Test Pump Connection.vi"/>
 </Library>
