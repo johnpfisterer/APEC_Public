@@ -36,6 +36,7 @@
 	<Item Name="Initialize.vi" Type="VI" URL="../../../VICI Electronic Actuator/Initialize.vi"/>
 	<Item Name="Position A.vi" Type="VI" URL="../../../VICI Electronic Actuator/Position A.vi"/>
 	<Item Name="Position B.vi" Type="VI" URL="../../../VICI Electronic Actuator/Position B.vi"/>
+	<Item Name="Valve Tag Names.vi" Type="VI" URL="../../../VICI Electronic Actuator/Valve Tag Names.vi"/>
 	<Item Name="VICI Electronic Actuator Settings.ctl" Type="VI" URL="../../../VICI Electronic Actuator/VICI Electronic Actuator Settings.ctl"/>
 	<Item Name="VICI Electronic Actuator Test.vi" Type="VI" URL="../../../VICI Electronic Actuator/VICI Electronic Actuator Test.vi"/>
 </Library>
