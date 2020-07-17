@@ -141,6 +141,7 @@
 		<Item Name="Get All Process Names.vi" Type="VI" URL="../Pfizer Timed Seq/Software/support/Get All Process Names.vi"/>
 		<Item Name="Data Rate Dialog.vi" Type="VI" URL="../Pfizer Timed Seq/Software/support/Data Rate Dialog.vi"/>
 		<Item Name="TCP Read.vi" Type="VI" URL="../Pfizer Timed Seq/Software/TCP/TCP Read.vi"/>
+		<Item Name="Numeric Alarm Settings Cluster.ctl" Type="VI" URL="../Pfizer Timed Seq/Software/Tag VIs/Numeric Alarm Settings Cluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -374,16 +375,6 @@
 				<Item Name="PRC_DataType2Prototype.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/process/internal/PRC_DataType2Prototype.vi"/>
 				<Item Name="NI_Variable.lvlib" Type="Library" URL="/&lt;vilib&gt;/variable/NI_Variable.lvlib"/>
 				<Item Name="PRC_CommitMultiple.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/process/internal/PRC_CommitMultiple.vi"/>
-				<Item Name="ALM_Acknowledge_by_Occurrence.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_Acknowledge_by_Occurrence.vi"/>
-				<Item Name="ALM_Parse_Alarm_URL.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_Parse_Alarm_URL.vi"/>
-				<Item Name="ALM_Error_Resolve.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_Error_Resolve.vi"/>
-				<Item Name="ALM_Acknowledge_by_Area.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_Acknowledge_by_Area.vi"/>
-				<Item Name="ALM_Acknowledge.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_Acknowledge.vi"/>
-				<Item Name="NET_resolveNVIORef.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/net/NET_resolveNVIORef.vi"/>
-				<Item Name="NET_tagURLdecode.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/net/NET_tagURLdecode.vi"/>
-				<Item Name="PRC_DeleteVar.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/process/internal/PRC_DeleteVar.vi"/>
-				<Item Name="ALM_Get_Alarms.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_Get_Alarms.vi"/>
-				<Item Name="ALM_GetTagURLs.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_GetTagURLs.vi"/>
 				<Item Name="DAQmx Write (Analog 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 1D DBL 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Write (Analog 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 1D DBL NChan 1Samp).vi"/>
 				<Item Name="DAQmx Write (Analog 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 1D Wfm NChan 1Samp).vi"/>
@@ -485,6 +476,16 @@
 				<Item Name="DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi"/>
 				<Item Name="DAQmx Read (Digital 1D Wfm NChan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Wfm NChan NSamp Duration).vi"/>
 				<Item Name="Data Type Indicator.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Data Type Indicator.ctl"/>
+				<Item Name="NET_resolveNVIORef.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/net/NET_resolveNVIORef.vi"/>
+				<Item Name="NET_tagURLdecode.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/common/net/NET_tagURLdecode.vi"/>
+				<Item Name="ALM_Get_Alarms.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_Get_Alarms.vi"/>
+				<Item Name="ALM_GetTagURLs.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_GetTagURLs.vi"/>
+				<Item Name="ALM_Error_Resolve.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_Error_Resolve.vi"/>
+				<Item Name="ALM_Acknowledge.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_Acknowledge.vi"/>
+				<Item Name="ALM_Acknowledge_by_Area.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_Acknowledge_by_Area.vi"/>
+				<Item Name="ALM_Parse_Alarm_URL.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_Parse_Alarm_URL.vi"/>
+				<Item Name="ALM_Acknowledge_by_Occurrence.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_Acknowledge_by_Occurrence.vi"/>
+				<Item Name="PRC_DeleteVar.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/process/internal/PRC_DeleteVar.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
@@ -609,7 +610,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Pfizer.ico</Property>
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A58025DB-CBF2-47AE-9CB0-7B5253D79C71}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{25309E8E-8F9E-4658-884B-3142955B60E5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
