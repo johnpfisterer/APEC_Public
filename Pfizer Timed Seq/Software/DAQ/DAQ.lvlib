@@ -52,4 +52,7 @@
 		<Item Name="Acquisition State.ctl" Type="VI" URL="../../Acquisition/Acquisition State.ctl"/>
 	</Item>
 	<Item Name="DAQ Message Loop.vi" Type="VI" URL="../../Acquisition/DAQ Message Loop.vi"/>
+	<Item Name="Initialize Alarm Time Array.vi" Type="VI" URL="../Initialize Alarm Time Array.vi"/>
+	<Item Name="Alarm Spike Delay.vi" Type="VI" URL="../Alarm Spike Delay.vi"/>
+	<Item Name="Handle DAQ Loose Wires.vi" Type="VI" URL="../Handle DAQ Loose Wires.vi"/>
 </Library>
