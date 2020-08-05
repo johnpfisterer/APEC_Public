@@ -37,6 +37,7 @@
 	<Item Name="Find Queue (SubVI).vi" Type="VI" URL="../Find Queue (SubVI).vi"/>
 	<Item Name="Get Wait Until Data.vi" Type="VI" URL="../Get Wait Until Data.vi"/>
 	<Item Name="Sequence Dialog.vi" Type="VI" URL="../Sequence Dialog.vi"/>
+	<Item Name="Sequence Error Log.vi" Type="VI" URL="../Sequence Error Log.vi"/>
 	<Item Name="Sequence.vi" Type="VI" URL="../Sequence.vi"/>
 	<Item Name="Squence Control.ctl" Type="VI" URL="../Squence Control.ctl"/>
 	<Item Name="Squence Update Cluster.ctl" Type="VI" URL="../Squence Update Cluster.ctl"/>

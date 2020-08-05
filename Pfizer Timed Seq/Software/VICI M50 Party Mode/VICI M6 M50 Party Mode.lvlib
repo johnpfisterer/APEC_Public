@@ -33,7 +33,6 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="Assigning VICI Letter.vi" Type="VI" URL="../Assigning VICI Letter.vi"/>
 	<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>
 	<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi"/>
 	<Item Name="Pause.vi" Type="VI" URL="../Pause.vi"/>
