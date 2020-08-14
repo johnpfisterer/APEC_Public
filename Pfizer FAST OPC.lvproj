@@ -161,7 +161,6 @@
 				<Item Name="DAQmx Start Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Start Task.vi"/>
 				<Item Name="DAQmx Stop Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Stop Task.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -487,6 +486,7 @@
 				<Item Name="ALM_Parse_Alarm_URL.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_Parse_Alarm_URL.vi"/>
 				<Item Name="ALM_Acknowledge_by_Occurrence.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/alarm/internal/ALM_Acknowledge_by_Occurrence.vi"/>
 				<Item Name="PRC_DeleteVar.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/process/internal/PRC_DeleteVar.vi"/>
+				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
@@ -588,7 +588,6 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{7CE8FA91-FF7B-4578-87FB-C883BD19AC78}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{D08CB5D6-45F2-4ABE-9B99-07F2FA568251}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_useFFRTE" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{B626693B-6E03-40DD-8582-33DC4BAFB782}</Property>
 				<Property Name="Bld_buildSpecDescription" Type="Str">FAST Application</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">FAST Application</Property>
@@ -611,7 +610,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Pfizer.ico</Property>
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E6192896-2EA1-48A1-A5A7-E0F6DE8AF86B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{60693781-CD31-420A-BF88-91C715DB4B11}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
@@ -931,6 +930,7 @@
 				<Property Name="Source[9].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">88</Property>
 				<Property Name="TgtF_companyName" Type="Str">Pfizer</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">FAST Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">FAST Application</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 Pfizer</Property>
