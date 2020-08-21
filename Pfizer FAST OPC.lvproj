@@ -610,7 +610,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Pfizer.ico</Property>
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{60693781-CD31-420A-BF88-91C715DB4B11}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EEE9E443-5A0C-4CB7-BBB7-9EDEB4F92384}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
