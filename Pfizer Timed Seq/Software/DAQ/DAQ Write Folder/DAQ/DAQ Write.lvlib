@@ -14,7 +14,6 @@
 		<Item Name="Initialize Hardware References.vi" Type="VI" URL="../../Acquisition/Initialize Hardware References.vi"/>
 		<Item Name="Stop Write.vi" Type="VI" URL="../../Acquisition/Stop Write.vi"/>
 		<Item Name="Configure Hardware.vi" Type="VI" URL="../../Acquisition/Configure Hardware.vi"/>
-		<Item Name="Acquire.vi" Type="VI" URL="../../Acquisition/Acquire.vi"/>
 		<Item Name="Stop Acquisition.vi" Type="VI" URL="../../../../Acquisition/Stop Acquisition.vi"/>
 		<Item Name="Write Settings Dialog.vi" Type="VI" URL="../../Acquisition/Write Settings Dialog.vi"/>
 		<Item Name="Error Handler - Acquisition Message Loop.vi" Type="VI" URL="../../../../Acquisition/Error Handler - Acquisition Message Loop.vi"/>
