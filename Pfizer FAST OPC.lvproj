@@ -108,6 +108,7 @@
 		<Item Name="JULABO DeviceDriver.lvlib" Type="Library" URL="../Pfizer Timed Seq/Third Party Drivers/Julabo Type 1/JULABO DeviceDriver/JULABO DeviceDriver.lvlib"/>
 		<Item Name="Julabo Type FP-50 TCU.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Julabo Type 1 TCU/Julabo Type 1 TCU Folder/Julabo Type FP-50 TCU.lvlib"/>
 		<Item Name="Logging.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Logging/Logging.lvlib"/>
+		<Item Name="Masterflex 75211.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Masterflex 75211/Masterflex 75211.lvlib"/>
 		<Item Name="Masterflex 7550-30.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Masterflex 7550-30/Masterflex 7550-30.lvlib"/>
 		<Item Name="Mettler Toledo.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Mettler Toledo/Mettler Toledo.lvlib"/>
 		<Item Name="Pressure Regulator Library.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Pressure Reg Module/Pressure Regulator Library.lvlib"/>
@@ -613,7 +614,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Pfizer.ico</Property>
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{14EA8943-41CA-4227-B6C5-069F67D3C562}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{26829A39-C44F-4E07-B097-EA1B27F9B0BE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
