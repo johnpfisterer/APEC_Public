@@ -87,7 +87,6 @@
 			<Item Name="ftd2xx64.dll" Type="Document" URL="../Pfizer Timed Seq/Third Party Drivers/4600031 - Version 1.2-Asia Pump Drivers/ftd2xx64.dll"/>
 			<Item Name="ftd2xx.dll" Type="Document" URL="../Pfizer Timed Seq/Third Party Drivers/4600031 - Version 1.2-Asia Pump Drivers/ftd2xx.dll"/>
 		</Item>
-		<Item Name="OSI OCPUA" Type="Folder"/>
 		<Item Name="ASIA Pump.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/ASIA Pump.lvlib"/>
 		<Item Name="Bronkhorst M13 Flow Meter.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Bronkhorst M13 Flow Meter/Bronkhorst M13 Flow Meter.lvlib"/>
 		<Item Name="Bronkhorst M14 Flow Meter.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Bronkhorst M14 Flow Meter/Bronkhorst M14 Flow Meter.lvlib"/>
@@ -614,7 +613,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Pfizer.ico</Property>
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{26829A39-C44F-4E07-B097-EA1B27F9B0BE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F2F9D26B-29D2-4320-AE9F-2753465CCFD0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>

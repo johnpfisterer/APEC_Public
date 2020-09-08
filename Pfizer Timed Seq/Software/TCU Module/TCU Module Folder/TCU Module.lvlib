@@ -47,5 +47,4 @@
 	<Item Name="TCU Settings Dialog.vi" Type="VI" URL="../TCU Settings Dialog.vi"/>
 	<Item Name="Broadcast TCU Settings.vi" Type="VI" URL="../Broadcast TCU Settings.vi"/>
 	<Item Name="TCU Module (Main).vi" Type="VI" URL="../TCU Module (Main).vi"/>
-	<Item Name="Status TCU Module.vi" Type="VI" URL="../Status TCU Module.vi"/>
 </Library>

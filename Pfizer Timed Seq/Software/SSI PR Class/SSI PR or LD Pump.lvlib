@@ -38,6 +38,6 @@
 	<Item Name="Pause.vi" Type="VI" URL="../Pause.vi"/>
 	<Item Name="Pump Status.vi" Type="VI" URL="../Pump Status.vi"/>
 	<Item Name="Set Speed.vi" Type="VI" URL="../Set Speed.vi"/>
-	<Item Name="SSI PR Pump Test.vi" Type="VI" URL="../SSI PR Pump Test.vi"/>
-	<Item Name="SSI PR Settings Cluster.ctl" Type="VI" URL="../SSI PR Settings Cluster.ctl"/>
+	<Item Name="SSI PR or LD Pump Test.vi" Type="VI" URL="../SSI PR or LD Pump Test.vi"/>
+	<Item Name="SSI PR or LD Settings Cluster.ctl" Type="VI" URL="../SSI PR or LD Settings Cluster.ctl"/>
 </Library>

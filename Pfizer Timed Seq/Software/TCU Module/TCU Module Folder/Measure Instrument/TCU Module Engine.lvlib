@@ -47,6 +47,7 @@
 	<Item Name="Outputs.vi" Type="VI" URL="../Outputs.vi"/>
 	<Item Name="Pause.vi" Type="VI" URL="../Pause.vi"/>
 	<Item Name="State Enum.ctl" Type="VI" URL="../State Enum.ctl"/>
+	<Item Name="Status TCU Module.vi" Type="VI" URL="../../Status TCU Module.vi"/>
 	<Item Name="Tag Names.vi" Type="VI" URL="../Tag Names.vi"/>
 	<Item Name="Timed Loop Time.vi" Type="VI" URL="../Timed Loop Time.vi"/>
 	<Item Name="Write Tags.vi" Type="VI" URL="../Write Tags.vi"/>

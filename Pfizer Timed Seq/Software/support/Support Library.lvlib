@@ -34,6 +34,7 @@
 	<Property Name="Serialized ACL" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="ASIA Pump Handler.vi" Type="VI" URL="../ASIA Pump Handler.vi"/>
+	<Item Name="Basic RS232 Write Read.vi" Type="VI" URL="../Basic RS232 Write Read.vi"/>
 	<Item Name="Check Loop Error.vi" Type="VI" URL="../Check Loop Error.vi"/>
 	<Item Name="Command Logging.lvlib" Type="Library" URL="../Command Log VIs/Command Logging.lvlib"/>
 	<Item Name="Create Tag Loop.vi" Type="VI" URL="../Create Tag Loop.vi"/>
