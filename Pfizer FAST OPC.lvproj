@@ -145,7 +145,6 @@
 		<Item Name="Main SubVIs.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/subVIs/Main SubVIs.lvlib"/>
 		<Item Name="Spawner.vi" Type="VI" URL="../Pfizer Timed Seq/Software/Async Spawn Test/Spawner.vi"/>
 		<Item Name="Spawned Program.vi" Type="VI" URL="../Pfizer Timed Seq/Software/Async Spawn Test/Spawned Program.vi"/>
-		<Item Name="Set up VICI.vi" Type="VI" URL="../Pfizer Timed Seq/Software/VICI M50 Party Mode/Set up VICI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -613,7 +612,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Pfizer.ico</Property>
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{360D1549-10DD-429E-8046-6190F5E788CC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5DA2E228-50A0-4D5E-9B3F-8FD0B5FC3BBD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
