@@ -42,6 +42,7 @@
 		<Item Name="Pump Module Tag Names Cluster.ctl" Type="VI" URL="../Pump Module Tag Names Cluster.ctl"/>
 		<Item Name="Pump Settings Cluster.ctl" Type="VI" URL="../Measure Instrument/Pump Settings Cluster.ctl"/>
 		<Item Name="All Message Queues.ctl" Type="VI" URL="../All Message Queues.ctl"/>
+		<Item Name="Pump Dialog Config and Start Stop Buttons.ctl" Type="VI" URL="../Pump Dialog Config and Start Stop Buttons.ctl"/>
 	</Item>
 	<Item Name="Pump Module Engine.lvlib" Type="Library" URL="../Measure Instrument/Pump Module Engine.lvlib"/>
 	<Item Name="Create All Message Queues.vi" Type="VI" URL="../Create All Message Queues.vi"/>

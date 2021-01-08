@@ -45,9 +45,10 @@
 		<Item Name="D-O Settings Dialog.ctl" Type="VI" URL="../D-O Settings Dialog.ctl"/>
 		<Item Name="Valve Clusters.ctl" Type="VI" URL="../Valve Clusters.ctl"/>
 	</Item>
+	<Item Name="D-O Module (Main).vi" Type="VI" URL="../D-O Module (Main).vi"/>
 	<Item Name="D-O Module Engine.lvlib" Type="Library" URL="../Measure Instrument/D-O Module Engine.lvlib"/>
 	<Item Name="Create All Message Queues.vi" Type="VI" URL="../Create All Message Queues.vi"/>
 	<Item Name="D-O Settings Dialog.vi" Type="VI" URL="../D-O Settings Dialog.vi"/>
 	<Item Name="Broadcast D-O Settings.vi" Type="VI" URL="../Broadcast D-O Settings.vi"/>
-	<Item Name="D-O Module (Main).vi" Type="VI" URL="../D-O Module (Main).vi"/>
+	<Item Name="D-O Module (Main) Try Again.vi" Type="VI" URL="../D-O Module (Main) Try Again.vi"/>
 </Library>

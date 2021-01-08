@@ -44,13 +44,14 @@
 	</Item>
 	<Item Name="Add Items.vi" Type="VI" URL="../Add Items.vi"/>
 	<Item Name="Broadcast Settings OPC.vi" Type="VI" URL="../Broadcast Settings OPC.vi"/>
-	<Item Name="Client Test.vi" Type="VI" URL="../Client Test.vi"/>
 	<Item Name="Client.vi" Type="VI" URL="../Client.vi"/>
 	<Item Name="Create All Message Queues (OPC).vi" Type="VI" URL="../Create All Message Queues (OPC).vi"/>
 	<Item Name="Get Server Data.vi" Type="VI" URL="../Get Server Data.vi"/>
 	<Item Name="OPC Dialog.vi" Type="VI" URL="../OPC Dialog.vi"/>
 	<Item Name="OPC Main.vi" Type="VI" URL="../OPC Main.vi"/>
+	<Item Name="OPC Tag Data.ctl" Type="VI" URL="../OPC Tag Data.ctl"/>
 	<Item Name="OPC UA Module Engine.lvlib" Type="Library" URL="../OPC UA Module Engine.lvlib"/>
 	<Item Name="Read Write Value.vi" Type="VI" URL="../Read Write Value.vi"/>
 	<Item Name="Server.vi" Type="VI" URL="../Server.vi"/>
+	<Item Name="Tags Dialog.vi" Type="VI" URL="../Tags Dialog.vi"/>
 </Library>

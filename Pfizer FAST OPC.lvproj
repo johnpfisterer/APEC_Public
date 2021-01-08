@@ -4,6 +4,7 @@
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="varPersistentID:{8B865F70-89C3-4BD5-9517-D718578EC44B}" Type="Ref">/My Computer/Support VIs/Support Library.lvlib/Globals.lvlib/Command Log File</Property>
 	<Property Name="varPersistentID:{CDB6E84D-FE5F-4A0C-88ED-AC5D5928C70C}" Type="Ref">/My Computer/Support VIs/Support Library.lvlib/Globals.lvlib/Test Variable</Property>
+	<Property Name="varPersistentID:{D6E11A7C-784E-41FD-A8E3-DD84192A66F0}" Type="Ref">/My Computer/Support VIs/Support Library.lvlib/Globals.lvlib/Ismatec 4083 Global</Property>
 	<Property Name="varPersistentID:{E1A6BFAD-90D2-4174-9125-438BD024F2B8}" Type="Ref">/My Computer/Support VIs/Support Library.lvlib/Globals.lvlib/ASIA Pump Global</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -103,10 +104,12 @@
 		<Item Name="History Graph.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/History Graph/History Graph.lvlib"/>
 		<Item Name="Huber Ministat 230 TCU.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Huber TCU/Huber Ministat 230 TCU.lvlib"/>
 		<Item Name="Huber Unistat 410 TCU.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Huber Unistat 410 TCU/Huber Unistat 410 TCU.lvlib"/>
+		<Item Name="Ismatec 4308.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Ismatec 78001/Ismatec 4308.lvlib"/>
 		<Item Name="Ismatec ISM 831C.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Ismatec ISM 831C/Ismatec ISM 831C.lvlib"/>
 		<Item Name="JULABO DeviceDriver.lvlib" Type="Library" URL="../Pfizer Timed Seq/Third Party Drivers/Julabo Type 1/JULABO DeviceDriver/JULABO DeviceDriver.lvlib"/>
 		<Item Name="Julabo Type FP-50 TCU.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Julabo Type 1 TCU/Julabo Type 1 TCU Folder/Julabo Type FP-50 TCU.lvlib"/>
 		<Item Name="Logging.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Logging/Logging.lvlib"/>
+		<Item Name="Main SubVIs.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/subVIs/Main SubVIs.lvlib"/>
 		<Item Name="Masterflex 75211.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Masterflex 75211/Masterflex 75211.lvlib"/>
 		<Item Name="Masterflex 7550-30.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Masterflex 7550-30/Masterflex 7550-30.lvlib"/>
 		<Item Name="Mettler Toledo.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Mettler Toledo/Mettler Toledo.lvlib"/>
@@ -116,6 +119,8 @@
 		<Item Name="Pump Module.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Pump Module Folder/Pump Module.lvlib"/>
 		<Item Name="Scale Module.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Scale Module Folder/Scale Module.lvlib"/>
 		<Item Name="Sequencing Library.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Sequencing/Sequencing Library.lvlib"/>
+		<Item Name="Sonic Systems P100.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Sonic Systems P100/Sonic Systems P100.lvlib"/>
+		<Item Name="Sonicator Module.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Sonicator Module Folder/Sonicator Module.lvlib"/>
 		<Item Name="Tacmina QI.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/Tacmina QI/Tacmina QI.lvlib"/>
 		<Item Name="TCU Module.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/TCU Module/TCU Module Folder/TCU Module.lvlib"/>
 		<Item Name="TDMS Log.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/TDMS Log/TDMS Log.lvlib"/>
@@ -140,12 +145,11 @@
 		<Item Name="Pump Status.vi" Type="VI" URL="../Pfizer Timed Seq/Software/support/Pump Status.vi"/>
 		<Item Name="Get All Process Names.vi" Type="VI" URL="../Pfizer Timed Seq/Software/support/Get All Process Names.vi"/>
 		<Item Name="Data Rate Dialog.vi" Type="VI" URL="../Pfizer Timed Seq/Software/support/Data Rate Dialog.vi"/>
-		<Item Name="TCP Read.vi" Type="VI" URL="../Pfizer Timed Seq/Software/TCP/TCP Read.vi"/>
 		<Item Name="Numeric Alarm Settings Cluster.ctl" Type="VI" URL="../Pfizer Timed Seq/Software/Tag VIs/Numeric Alarm Settings Cluster.ctl"/>
-		<Item Name="Main SubVIs.lvlib" Type="Library" URL="../Pfizer Timed Seq/Software/subVIs/Main SubVIs.lvlib"/>
 		<Item Name="Spawner.vi" Type="VI" URL="../Pfizer Timed Seq/Software/Async Spawn Test/Spawner.vi"/>
 		<Item Name="Spawned Program.vi" Type="VI" URL="../Pfizer Timed Seq/Software/Async Spawn Test/Spawned Program.vi"/>
 		<Item Name="Set up VICI.vi" Type="VI" URL="../Pfizer Timed Seq/Software/VICI M50 Party Mode/Set up VICI.vi"/>
+		<Item Name="DeleteArrayElements.vi" Type="VI" URL="../../../../../Downloads/DeleteArrayElements.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -526,6 +530,10 @@
 				<Item Name="Reshape Array to 1D VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape Array to 1D VArray__ogtk.vi"/>
 				<Item Name="Array to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array to Array of VData__ogtk.vi"/>
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
+				<Item Name="Random Number - Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number - Within Range__ogtk.vi"/>
+				<Item Name="Random Number Within Range - I32__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - I32__ogtk.vi"/>
+				<Item Name="Random Number Within Range - DBL__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - DBL__ogtk.vi"/>
+				<Item Name="Random Number Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range__ogtk.vi"/>
 			</Item>
 			<Item Name="PID 1 Parameters Cluster.ctl" Type="VI" URL="../Pfizer Timed Seq/Software/Measure Instrument/PID 1 Parameters Cluster.ctl"/>
 			<Item Name="Recenter Panel Bounds.vi" Type="VI" URL="../Pfizer Timed Seq/Software/support/Recenter Panel Bounds.vi"/>
@@ -612,8 +620,14 @@
 				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/FAST Application/Images</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Pfizer.ico</Property>
+				<Property Name="Exe_Vardep[0].LibDeploy" Type="Bool">true</Property>
+				<Property Name="Exe_Vardep[0].LibItemID" Type="Ref">/My Computer/Support VIs/Support Library.lvlib/Globals.lvlib</Property>
+				<Property Name="Exe_Vardep[1].LibDeploy" Type="Bool">true</Property>
+				<Property Name="Exe_Vardep[1].LibItemID" Type="Ref">/My Computer/Support VIs/Support Library.lvlib</Property>
+				<Property Name="Exe_VardepDeployAtStartup" Type="Bool">true</Property>
+				<Property Name="Exe_VardepLibItemCount" Type="Int">2</Property>
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F9D132A1-A1D1-4DBF-96B5-3075A005561A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C70C574A-51C2-45FA-B03C-05D68D3220CC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
@@ -927,11 +941,16 @@
 				<Property Name="Source[87].itemID" Type="Ref">/My Computer/Calibration.lvlib/Calibration Main.vi</Property>
 				<Property Name="Source[87].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[87].type" Type="Str">VI</Property>
+				<Property Name="Source[88].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[88].itemID" Type="Ref">/My Computer/Support VIs/Support Library.lvlib/Globals.lvlib</Property>
+				<Property Name="Source[88].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[88].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[88].type" Type="Str">Library</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/History Graph.lvlib/History Graph Message Loop.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">88</Property>
+				<Property Name="SourceCount" Type="Int">89</Property>
 				<Property Name="TgtF_companyName" Type="Str">Pfizer</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">FAST Application</Property>
@@ -1217,7 +1236,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{18D85860-2799-4DDF-A0C6-87CA95AD65F8}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">Pfizer FAST OPC</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.2</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18018011</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Pfizer</Property>

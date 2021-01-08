@@ -34,6 +34,8 @@
 	<Property Name="Serialized ACL" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>
+	<Item Name="fmeasure Test.vi" Type="VI" URL="../fmeasure Test.vi"/>
+	<Item Name="fmeasure.vi" Type="VI" URL="../fmeasure.vi"/>
 	<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi"/>
 	<Item Name="Read Density.vi" Type="VI" URL="../Read Density.vi"/>
 	<Item Name="Read Temperature.vi" Type="VI" URL="../Read Temperature.vi"/>

@@ -35,6 +35,9 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>
 	<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi"/>
+	<Item Name="Mettler Toledo Test.vi" Type="VI" URL="../Mettler Toledo Test.vi"/>
+	<Item Name="Read 2.vi" Type="VI" URL="../Read 2.vi"/>
+	<Item Name="Read Error.vi" Type="VI" URL="../Read Error.vi"/>
 	<Item Name="Read.vi" Type="VI" URL="../Read.vi"/>
 	<Item Name="Settings Cluster.ctl" Type="VI" URL="../Controls/Settings Cluster.ctl"/>
 </Library>

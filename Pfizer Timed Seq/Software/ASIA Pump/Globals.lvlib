@@ -38,6 +38,24 @@
 		<Property Name="typedefPath1" Type="PathRel">../../support/Command Log VIs/File Path.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"]?!!!!"A!A!!!!!!"!'1!]1!!!!!!!!!$&amp;6.V=("P=H1A4'FC=G&amp;S?3ZM&gt;GRJ9B6$&lt;WVN97ZE)%RP:W&gt;J&lt;G=O&lt;(:M;7).2GFM:3"1982I,G.U&lt;!!C1(!!!B&gt;#?82F)&amp;.U=G6B&lt;3"';7RF)&amp;*F:GZV&lt;1!"!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="Ismatec 4083 Global" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">Ismatec 4308.lvlib:Ismatec 4083 Global Element.ctl</Property>
+		<Property Name="typedefName2" Type="Str">Ismatec 4308.lvlib:Ismatec 4083 Global.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../Ismatec 78001/Ismatec 4083 Global Element.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">../../Ismatec 78001/Ismatec 4083 Global.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#`OQ!!!"A!A!!!!!!)!!J!)12#&gt;8.Z!!!21!I!#E.I97ZO:7R$&lt;H1!!""!)1N*&lt;GFU;7&amp;M;8JF:!!61!I!$U.V=H*F&lt;H1A1WBB&lt;GZF&lt;!!.1!I!"UZV&lt;76S;7-!)E"!!!(`````!!1537ZJ&gt;'FB&lt;'F[:71A1WBB&lt;GZF&lt;(-!!"B!5!!&amp;!!!!!1!#!!-!"1&gt;$&lt;(6T&gt;'6S!#"!1!!"`````Q!'%UFT&lt;7&amp;U:7-A.$!Y-S"(&lt;'^C97Q!!1!(!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="Test Variable" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
