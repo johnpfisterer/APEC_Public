@@ -46,6 +46,7 @@
 	<Item Name="Ramp.vi" Type="VI" URL="../Ramp.vi"/>
 	<Item Name="Rolling Average.vi" Type="VI" URL="../Rolling Average.vi"/>
 	<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../Set Enable State on Multiple Controls.vi"/>
+	<Item Name="Sort Array of Clusters 2012 NIVerified.vi" Type="VI" URL="../Sort Array of Clusters 2012 NIVerified.vi"/>
 	<Item Name="Update if Clear.vi" Type="VI" URL="../Update if Clear.vi"/>
 	<Item Name="User Event - Stop.lvlib" Type="Library" URL="../User Event - Stop/User Event - Stop.lvlib"/>
 	<Item Name="Write then Read.vi" Type="VI" URL="../Write then Read.vi"/>
