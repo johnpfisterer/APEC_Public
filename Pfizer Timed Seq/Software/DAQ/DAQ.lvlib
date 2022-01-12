@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="18008000">
+<Library LVVersion="21008000">
 	<Property Name="Alarm Database Computer" Type="Str">localhost</Property>
 	<Property Name="Alarm Database Name" Type="Str">C__Program_Files__x86__National_Instruments_LabVIEW_2018_data</Property>
 	<Property Name="Alarm Database Path" Type="Str">C:\Program Files (x86)\National Instruments\LabVIEW 2018\data</Property>
@@ -9,8 +9,8 @@
 	<Property Name="Database Path" Type="Str">C:\Program Files (x86)\National Instruments\LabVIEW 2018\data</Property>
 	<Property Name="Enable Alarms Logging" Type="Bool">true</Property>
 	<Property Name="Enable Data Logging" Type="Bool">true</Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*\!!!*Q(C=\&gt;5^DBJ"%)&lt;B$]O"-S_25YP599E&lt;E(!!/%*&gt;A=130YH*(.=6U#;/#6;/H.16#,A!)9'&amp;0([H;4#M:?(!+W_Q0&gt;P\]`6U^5.0;V9K\9XU7MWN.DSV\`0B\[W/.X]`@FXY9HT=DI`PGY&gt;4/Y]@&lt;S`T@YS&lt;BX)V&amp;_0$5OX$@$Q`(0&lt;(_&gt;@DJ@ZQ@ZA@\P@(_6@V,^LBPOHX_\_!D]&gt;0G%?@\Y`NZP&lt;KJ&lt;WU`^NG.Q`JEZ`:DNI8%4XJ18?[K6WK3@)E4`)E4`)E$`)A$`)A$`)A&gt;X)H&gt;X)H&gt;X)H.X)D.X)D.X)D,R?ZS%5O=ED*YMF#3&gt;'E1()T&amp;#8@%E`C34S*BT_6?"*0YEE]C9&gt;&lt;F(A34_**0)G(;5I]C3@R**\%1[ECS8+2YUE]F&amp;@A#4S"*`!%(J:5Y!E!Q7*"Y;!)$!7$Q3_"*`!%(HZ6Y!E]A3@Q""['&amp;8A#4_!*0)'(+768IGD;CRQ0:?2Y()`D=4S/B^*S0)\(]4A?R].S=DS/RU%Y#TL&amp;)=C:Z.TA`/&amp;Y(!]`Z(A=D_.R0)[(I@+%P/R-KWEP=DS'R`!9(M.D?#ABQW.Y$)`B-4S5F?%R0)&lt;(]"A?FJ,B-4S'RY!9C\+]D','2/-G)T!]@*849O5J2:&amp;9O;2[?&amp;50J?JB5TV%KI&gt;$^;'L0ET6B[3[_;K&lt;KLJ:KJOA_O&amp;5U;I9V565*\=X;M@X$8V.8^'8^!F^2"`1?`2O/`5@X\D&lt;\&lt;4:&lt;,2?L\6;L&lt;2=,D7:4$1;D419$.4L^&gt;4N&gt;M_PA@&gt;=ZR@#]&lt;UUOV.H5@LU[_+OW8\_-NV_?D@&gt;,NZ/N\0/N_V-(TMT\H_C`[80Y.WI6\KMSR\^"#X*PO!!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*\!!!*Q(C=\&gt;5^DBJ"%)&lt;B$]O"-S_25YP599E&lt;E(!!/%*&gt;A=130YH*(.=6U#;/#6;/H.16#,A!)9'&amp;0([H;4#M:?(!+W_Q0&gt;P\]`6U^5.0;V9K\9XU7MWN.DSV\`0B\[W/.X]`@FXY9HT=DI`PGY&gt;4/Y]@&lt;S`T@YS&lt;BX)V&amp;_0$5OX$@$Q`(0&lt;(_&gt;@DJ@ZQ@ZA@\P@(_6@V,^LBPOHX_\_!D]&gt;0G%?@\Y`NZP&lt;KJ&lt;WU`^NG.Q`JEZ`:DNI8%4XJ18?[K6WK3@)E4`)E4`)E$`)A$`)A$`)A&gt;X)H&gt;X)H&gt;X)H.X)D.X)D.X)D,R?ZS%5O=ED*YMF#3&gt;'E1()T&amp;#8@%E`C34S*BT_6?"*0YEE]C9&gt;&lt;F(A34_**0)G(;5I]C3@R**\%1[ECS8+2YUE]F&amp;@A#4S"*`!%(J:5Y!E!Q7*"Y;!)$!7$Q3_"*`!%(HZ6Y!E]A3@Q""['&amp;8A#4_!*0)'(+768IGD;CRQ0:?2Y()`D=4S/B^*S0)\(]4A?R].S=DS/RU%Y#TL&amp;)=C:Z.TA`/&amp;Y(!]`Z(A=D_.R0)[(I@+%P/R-KWEP=DS'R`!9(M.D?#ABQW.Y$)`B-4S5F?%R0)&lt;(]"A?FJ,B-4S'RY!9C\+]D','2/-G)T!]@*849O5J2:&amp;9O;2[?&amp;50J?JB5TV%KI&gt;$^;'L0ET6B[3[_;K&lt;KLJ:KJOA_O&amp;5U;I9V565*\=X;M@X$8V.8^'8^!F^2"`1?`2O/`5@X\D&lt;\&lt;4:&lt;,2?L\6;L&lt;2=,D7:4$1;D419$.4L^&gt;4N&gt;M_PA@&gt;=ZR@#]&lt;UUOV.H5@LU[_+OW8\_-NV_?D@&gt;,NZ/N\0/N_V-(TMT\H_C`[80Y.WI6\KMSR\^"#X*PO!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
@@ -32,20 +32,26 @@
 	<Property Name="OdbcStringLoggingTableName" Type="Str">NI_VARIABLE_STRING</Property>
 	<Property Name="OdbcUsername" Type="Str"></Property>
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
-	<Property Name="Serialized ACL" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
+	<Property Name="Serialized ACL" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="support" Type="Folder">
+		<Item Name="New Folder" Type="Folder">
+			<Item Name="Stop Acquisition.vi" Type="VI" URL="../../Acquisition/Stop Acquisition.vi"/>
+			<Item Name="Error Handler - Write Message Loop.vi" Type="VI" URL="../DAQ Write Folder/Acquisition/Error Handler - Write Message Loop.vi"/>
+			<Item Name="Stop Write.vi" Type="VI" URL="../DAQ Write Folder/Acquisition/Stop Write.vi"/>
+			<Item Name="Write Settings Dialog.vi" Type="VI" URL="../DAQ Write Folder/Acquisition/Write Settings Dialog.vi"/>
+		</Item>
 		<Item Name="Hardware Configuration.ctl" Type="VI" URL="../../Acquisition/Hardware Configuration.ctl"/>
 		<Item Name="Initialize Hardware References.vi" Type="VI" URL="../../Acquisition/Initialize Hardware References.vi"/>
 		<Item Name="Configure Hardware.vi" Type="VI" URL="../../Acquisition/Configure Hardware.vi"/>
 		<Item Name="Acquire.vi" Type="VI" URL="../../Acquisition/Acquire.vi"/>
-		<Item Name="Stop Acquisition.vi" Type="VI" URL="../../Acquisition/Stop Acquisition.vi"/>
 		<Item Name="Error Handler - Acquisition Message Loop.vi" Type="VI" URL="../../Acquisition/Error Handler - Acquisition Message Loop.vi"/>
 		<Item Name="Find DO Tags.vi" Type="VI" URL="../../Acquisition/Find DO Tags.vi"/>
 		<Item Name="Write Tag Data.vi" Type="VI" URL="../../Acquisition/Write Tag Data.vi"/>
 		<Item Name="Acquisition Settings Dialog.vi" Type="VI" URL="../../Acquisition/Acquisition Settings Dialog.vi"/>
 		<Item Name="Commit DAQ Tags.vi" Type="VI" URL="../Commit DAQ Tags.vi"/>
 		<Item Name="Read Tag Data.vi" Type="VI" URL="../DAQ Write Folder/Acquisition/Read Tag Data.vi"/>
+		<Item Name="DAQ Write.lvlib" Type="Library" URL="../DAQ Write Folder/DAQ/DAQ Write.lvlib"/>
 	</Item>
 	<Item Name="Controls" Type="Folder">
 		<Item Name="Task Cluster (with Add Remove Buttons).ctl" Type="VI" URL="../../Acquisition/Task Cluster (with Add Remove Buttons).ctl"/>
@@ -55,4 +61,8 @@
 	<Item Name="Initialize Alarm Time Array.vi" Type="VI" URL="../Initialize Alarm Time Array.vi"/>
 	<Item Name="Alarm Spike Delay.vi" Type="VI" URL="../Alarm Spike Delay.vi"/>
 	<Item Name="Handle DAQ Loose Wires.vi" Type="VI" URL="../Handle DAQ Loose Wires.vi"/>
+	<Item Name="DAQ Test Program.vi" Type="VI" URL="../DAQ Test Program.vi"/>
+	<Item Name="Test Program Data Array.vi" Type="VI" URL="../Test Program Data Array.vi"/>
+	<Item Name="Test Program Read Tag Data.vi" Type="VI" URL="../Test Program Read Tag Data.vi"/>
+	<Item Name="Test Program Write Tag.vi" Type="VI" URL="../Test Program Write Tag.vi"/>
 </Library>
